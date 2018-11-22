@@ -1,0 +1,112 @@
+\documentclass[12pt,a4paper]{report}
+%\documentclass[10pt,a4paper,twocolumn]{report}
+
+
+%%%%% preamble %%%%%
+
+%%% use package %%%
+
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{subfigure}
+\usepackage{natbib}
+\usepackage{setspace}
+\usepackage{times}
+
+%\usepackage[dvipdfm]{graphicx}
+%\usepackage[dvips]{graphicx}
+\usepackage[dvipdfmx]{graphicx}
+%\usepackage{color}
+
+
+
+%%% text size %%%
+\setlength{\topmargin}{20mm}
+\addtolength{\topmargin}{-1in}
+\setlength{\textheight}{232mm}
+\setlength{\headsep}{0mm}
+\setlength{\headheight}{0mm}
+\setlength{\topskip}{0mm}
+\setlength{\oddsidemargin}{30mm}
+\addtolength{\oddsidemargin}{-1in}
+\setlength{\evensidemargin}{30mm}
+\addtolength{\evensidemargin}{-1in}
+\setlength{\textwidth}{150mm}
+%\setlength{\leftmargin}{-1 in}
+
+\renewcommand{\bibname}{References}
+
+\doublespacing
+
+
+\sloppy
+
+%%% title information %%%L
+\title{
+  \Large{Master Thesis}\\[1.5cm]
+  \LARGE{\bf Exploring the existence of prebiotic species:\\
+    ALMA observations of amine-containing organic molecules in star-forming regions.}\\[3cm]
+}
+\author{
+  \Large{\bf Harumi Minamoto}\\
+%  \Large{}\\[0.5cm]
+  \large{17M01629}\\
+  \large{Nomura Laboratory}\\
+  \large{Department of Earth and Planetary Sciences,\,Tokyo Institute of Technology}\\[2cm]
+}
+\date{\large{\bf \today}}
+
+
+\input{jnl_list}
+
+%%%%% main page %%%%%
+\begin{document}
+
+
+%%% make title %%%
+\maketitle
+\thispagestyle{empty}\mbox{}\newpage
+
+\pagenumbering{roman}
+
+%%% abstract %%%
+\include{abstract}
+
+%%% table of contents %%%
+\include{tableofcontents}
+
+%%% main chapters %%%
+% Empty pages are inserted to make each title page
+% come to the right-hand side (odd page) of the book.
+\thispagestyle{empty}\mbox{}\newpage
+\include{chap1_introduction}
+%\thispagestyle{empty}\mbox{}\newpage
+\include{chap2_analysis}
+%\thispagestyle{empty}\mbox{}\newpage
+\include{chap3_results}
+%\thispagestyle{empty}\mbox{}\newpage
+\include{chap4_discussion}
+%\thispagestyle{empty}\mbox{}\newpage
+\include{chap5_summary}
+%\thispagestyle{empty}\mbox{}\newpage
+
+%%% appendix %%%
+\appendix
+\include{app_appendix}
+%\thispagestyle{empty}\mbox{}\newpage
+
+%%% acknowledgment %%%
+\include{acknowledgments}
+%\thispagestyle{empty}\mbox{}\newpage
+
+
+%% 本編終了
+
+
+%% referenceの表示
+
+\include{chap_bib}%{/Users/shoji/Library/texmf/tex/aBibfile}
+
+
+
+
+\end{document}
