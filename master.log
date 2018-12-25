@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.7-160201-2.6 (utf8.euc) (TeX Live 2016) (preloaded format=platex 2017.5.9)  22 NOV 2018 20:45
+This is e-pTeX, Version 3.14159265-p3.7-160201-2.6 (utf8.euc) (TeX Live 2016) (preloaded format=platex 2017.5.9)  25 DEC 2018 11:09
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -113,18 +113,18 @@ Package: subfigure 2002/03/15 v2.1.5 subfigure package
 \subfig@top=\skip50
 \subfig@bottom=\skip51
 )
-(/usr/local/texlive/2016/texmf-dist/tex/latex/natbib/natbib.sty
-Package: natbib 2010/09/13 8.31b (PWD, AO)
+(./natbib.sty
+Package: natbib 2003/06/06 7.1 (PWD)
 \bibhang=\skip52
 \bibsep=\skip53
-LaTeX Info: Redefining \cite on input line 694.
+LaTeX Info: Redefining \cite on input line 518.
 \c@NAT@ctr=\count106
-)
-(/usr/local/texlive/2016/texmf-dist/tex/latex/setspace/setspace.sty
-Package: setspace 2011/12/19 v6.7a set line spacing
-)
-(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/times.sty
-Package: times 2005/04/12 PSNFSS-v9.2a (SPQR) 
+) (./setspace.sty
+Package: setspace 2000/12/01 6.7 Contributed and Supported LaTeX2e package
+
+Package: `setspace' 6.7 <2000/12/01>
+) (./times.sty
+Package: times 2000/01/12 PSNFSS-v8.1 Times font as default roman (SPQR) 
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
@@ -321,13 +321,22 @@ Appendix A.
 ]
 \openout2 = `acknowledgments.aux'.
 
+ (./acknowledgments.tex) [7
 
-No file acknowledgments.tex.
+
+
+]
 \openout2 = `chap_bib.aux'.
 
-(./chap_bib.tex
-No file master.bbl.
-) (./master.aux (./abstract.aux) (./tableofcontents.aux)
+ (./chap_bib.tex (./master.bbl
+
+Package natbib Warning: Empty `thebibliography' environment on input line 4.
+
+)) [8
+
+
+
+] (./master.aux (./abstract.aux) (./tableofcontents.aux)
 (./chap1_introduction.aux) (./chap2_analysis.aux) (./chap3_results.aux)
 (./chap4_discussion.aux) (./chap5_summary.aux) (./app_appendix.aux)
 (./acknowledgments.aux) (./chap_bib.aux))
@@ -336,12 +345,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 2404 strings out of 493693
- 29793 string characters out of 6149788
- 89399 words of memory out of 5000000
- 5881 multiletter control sequences out of 15000+600000
+ 2311 strings out of 493693
+ 28256 string characters out of 6149788
+ 88007 words of memory out of 5000000
+ 5786 multiletter control sequences out of 15000+600000
  19242 words of font info for 69 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
  27i,7n,26p,224b,358s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on master.dvi (11 pages, 2240 bytes).
+Output written on master.dvi (13 pages, 2508 bytes).
