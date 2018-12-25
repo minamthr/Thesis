@@ -1,0 +1,59 @@
+This is pBibTeX, Version 0.99d-j0.33 (utf8.euc) (TeX Live 2016)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: master.aux
+A level-1 auxiliary file: abstract.aux
+A level-1 auxiliary file: tableofcontents.aux
+A level-1 auxiliary file: chap1_introduction.aux
+A level-1 auxiliary file: chap2_analysis.aux
+A level-1 auxiliary file: chap3_results.aux
+A level-1 auxiliary file: chap4_discussion.aux
+A level-1 auxiliary file: chap5_summary.aux
+A level-1 auxiliary file: app_appendix.aux
+A level-1 auxiliary file: acknowledgments.aux
+A level-1 auxiliary file: chap_bib.aux
+The style file: apj.bst
+I found no \citation commands---while reading file master.aux
+Database file #1: references.bib
+You've used 0 entries,
+            2988 wiz_defined-function locations,
+            662 strings with 4784 characters,
+and the built_in function-call counts, 23 in all, are:
+= -- 0
+> -- 0
+< -- 0
++ -- 0
+- -- 0
+* -- 2
+:= -- 8
+add.period$ -- 0
+call.type$ -- 0
+change.case$ -- 0
+chr.to.int$ -- 0
+cite$ -- 0
+duplicate$ -- 0
+empty$ -- 1
+format.name$ -- 0
+if$ -- 1
+int.to.chr$ -- 1
+int.to.str$ -- 1
+missing$ -- 0
+newline$ -- 4
+num.names$ -- 0
+pop$ -- 0
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 1
+stack$ -- 0
+substring$ -- 0
+swap$ -- 0
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 0
+while$ -- 0
+width$ -- 0
+write$ -- 3
+is.kanji.str$ -- 0
+(There was 1 error message)
