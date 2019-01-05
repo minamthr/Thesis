@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.7-160201-2.6 (utf8.euc) (TeX Live 2016) (preloaded format=platex 2017.5.9)  25 DEC 2018 11:09
+This is e-pTeX, Version 3.14159265-p3.7-160201-2.6 (utf8.euc) (TeX Live 2016) (preloaded format=platex 2017.5.9)  5 JAN 2019 21:05
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -158,19 +158,9 @@ Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 \Gin@req@width=\dimen131
 )
 (./jnl_list.tex) (./master.aux (./abstract.aux) (./tableofcontents.aux)
-(./chap1_introduction.aux) (./chap2_analysis.aux) (./chap3_results.aux
-
-LaTeX Warning: Label `chap:' multiply defined.
-
-) (./chap4_discussion.aux
-
-LaTeX Warning: Label `chap:' multiply defined.
-
-) (./chap5_summary.aux
-
-LaTeX Warning: Label `chap:' multiply defined.
-
-) (./app_appendix.aux) (./acknowledgments.aux) (./chap_bib.aux))
+(./chap1_introduction.aux) (./chap2_OrionKL.aux) (./chap3_LMSFRs.aux)
+(./chap4_discussion.aux) (./chap5_conclusions.aux) (./app_appendix.aux)
+(./acknowledgments.aux) (./chap_bib.aux))
 \openout1 = `master.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 62.
@@ -189,11 +179,11 @@ LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 62.
 LaTeX Font Info:    ... okay on input line 62.
 LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 62.
 LaTeX Font Info:    ... okay on input line 62.
-
-(I search kanjifont definition file: . . ) (I search font definition file: . .
-. . . . . )
+ (I search kanjifont definition file:
+. . ) (I search font definition file: . . . . . . . )
 LaTeX Font Info:    Try loading font information for OT1+ptm on input line 62.
- (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <20.74> not available
@@ -241,6 +231,9 @@ LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <24.88> not available
 (Font)              Font shape `JY1/gt/m/n' tried instead on input line 1.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24.88> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1.
+Missing character: There is no ^^e2 in font ptmr7t!
+Missing character: There is no ^^80 in font ptmr7t!
+Missing character: There is no ^^93 in font ptmr7t!
 ) [1
 
 
@@ -254,16 +247,16 @@ LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <12> not available
 (Font)              Font shape `JY1/gt/m/n' tried instead on input line 1.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1.
-)
+ [2
+
+
+
+])
 \tf@toc=\write3
 \openout3 = `master.toc'.
 
-) [2
-
-
-
-]
-[3
+)
+[3] [4
 
 ]
 \openout2 = `chap1_introduction.aux'.
@@ -274,20 +267,24 @@ Chapter 1.
 
 
 ]
-\openout2 = `chap2_analysis.aux'.
+\openout2 = `chap2_OrionKL.aux'.
 
- (./chap2_analysis.tex
+ (./chap2_OrionKL.tex
 Chapter 2.
 ) [2
 
 
 
 ]
-\openout2 = `chap3_results.aux'.
+Overfull \vbox (12.67595pt too high) has occurred while \output is active []
 
- (./chap3_results.tex
+
+[3]
+\openout2 = `chap3_LMSFRs.aux'.
+
+ (./chap3_LMSFRs.tex
 Chapter 3.
-) [3
+) [4
 
 
 
@@ -296,16 +293,16 @@ Chapter 3.
 
  (./chap4_discussion.tex
 Chapter 4.
-) [4
+) [5
 
 
 
 ]
-\openout2 = `chap5_summary.aux'.
+\openout2 = `chap5_conclusions.aux'.
 
- (./chap5_summary.tex
+ (./chap5_conclusions.tex
 Chapter 5.
-) [5
+) [6
 
 
 
@@ -314,14 +311,14 @@ Chapter 5.
 
  (./app_appendix.tex
 Appendix A.
-) [6
+) [7
 
 
 
 ]
 \openout2 = `acknowledgments.aux'.
 
- (./acknowledgments.tex) [7
+ (./acknowledgments.tex) [8
 
 
 
@@ -332,25 +329,21 @@ Appendix A.
 
 Package natbib Warning: Empty `thebibliography' environment on input line 4.
 
-)) [8
+)) [9
 
 
 
 ] (./master.aux (./abstract.aux) (./tableofcontents.aux)
-(./chap1_introduction.aux) (./chap2_analysis.aux) (./chap3_results.aux)
-(./chap4_discussion.aux) (./chap5_summary.aux) (./app_appendix.aux)
-(./acknowledgments.aux) (./chap_bib.aux))
-
-LaTeX Warning: There were multiply-defined labels.
-
- ) 
+(./chap1_introduction.aux) (./chap2_OrionKL.aux) (./chap3_LMSFRs.aux)
+(./chap4_discussion.aux) (./chap5_conclusions.aux) (./app_appendix.aux)
+(./acknowledgments.aux) (./chap_bib.aux)) ) 
 Here is how much of TeX's memory you used:
- 2311 strings out of 493693
- 28256 string characters out of 6149788
- 88007 words of memory out of 5000000
- 5786 multiletter control sequences out of 15000+600000
- 19242 words of font info for 69 fonts, out of 8000000 for 9000
+ 2338 strings out of 493693
+ 28584 string characters out of 6149788
+ 90993 words of memory out of 5000000
+ 5806 multiletter control sequences out of 15000+600000
+ 23589 words of font info for 86 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
- 27i,7n,26p,224b,358s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 27i,7n,26p,458b,358s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on master.dvi (13 pages, 2508 bytes).
+Output written on master.dvi (15 pages, 14140 bytes).
