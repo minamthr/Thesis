@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.7-160201-2.6 (utf8.euc) (TeX Live 2016) (preloaded format=platex 2017.5.9)  11 JAN 2019 20:58
+This is e-pTeX, Version 3.14159265-p3.7-160201-2.6 (utf8.euc) (TeX Live 2016) (preloaded format=platex 2017.5.9)  11 JAN 2019 21:31
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -327,16 +327,19 @@ File: OrionKL/chmap/229.908.eps Graphic file (type eps)
 
  (./chap3_LMSFRs.tex
 Chapter 3.
-) [14
+File: LMSFR/L483_mom0.eps Graphic file (type eps)
+<LMSFR/L483_mom0.eps>
+File: LMSFR/L483.eps Graphic file (type eps)
+ <LMSFR/L483.eps>) [14
 
 
 
-]
+] [15]
 \openout2 = `chap4_discussion.aux'.
 
  (./chap4_discussion.tex
 Chapter 4.
-) [15
+) [16
 
 
 
@@ -345,7 +348,7 @@ Chapter 4.
 
  (./chap5_conclusions.tex
 Chapter 5.
-) [16
+) [17
 
 
 
@@ -363,11 +366,11 @@ File: OrionKL/mom0/231.844SV_mom0_3-7.eps Graphic file (type eps)
 <OrionKL/mom0/231.844SV_mom0_3-7.eps>
 File: OrionKL/mom0/242.625SV_mom0_3-7.eps Graphic file (type eps)
  <OrionKL/mom0/242.625SV_mom0_3-7.eps>
-[17
+[18
 
 
 
-] [18]
+] [19]
 File: OrionKL/mom0/231.524mom0_3-7.eps Graphic file (type eps)
  <OrionKL/mom0/231.524mom0_3-7.eps>
 File: OrionKL/mom0/218.221mom0_3-7.eps Graphic file (type eps)
@@ -382,7 +385,7 @@ File: OrionKL/mom0/231.061mom0_3-7.eps Graphic file (type eps)
  <OrionKL/mom0/231.061mom0_3-7.eps>
 File: OrionKL/mom0/233.802mom0_3-7.eps Graphic file (type eps)
 
-<OrionKL/mom0/233.802mom0_3-7.eps> [19]
+<OrionKL/mom0/233.802mom0_3-7.eps> [20]
 File: OrionKL/mom0/231.576mom0_3-7.eps Graphic file (type eps)
  <OrionKL/mom0/231.576mom0_3-7.eps>
 File: OrionKL/mom0/216.843mom0_3-7.eps Graphic file (type eps)
@@ -397,7 +400,7 @@ File: OrionKL/mom0/217.67mom0_3-7.eps Graphic file (type eps)
  <OrionKL/mom0/217.67mom0_3-7.eps>
 File: OrionKL/mom0/237.144mom0_3-7.eps Graphic file (type eps)
 
-<OrionKL/mom0/237.144mom0_3-7.eps> [20]
+<OrionKL/mom0/237.144mom0_3-7.eps> [21]
 File: OrionKL/chmap/222.846.eps Graphic file (type eps)
  <OrionKL/chmap/222.846.eps>
 File: OrionKL/chmap/227.545.eps Graphic file (type eps)
@@ -437,11 +440,11 @@ File: OrionKL/chmap/217.67.eps Graphic file (type eps)
  <OrionKL/chmap/217.67.eps>
 File: OrionKL/chmap/237.144.eps Graphic file (type eps)
 
-<OrionKL/chmap/237.144.eps>) [21] [22] [23] [24] [25] [26] [27] [28] [29]
-[30] [31] [32] [33] [34] [35] [36]
+<OrionKL/chmap/237.144.eps>) [22] [23] [24] [25] [26] [27] [28] [29] [30]
+[31] [32] [33] [34] [35] [36] [37]
 \openout2 = `acknowledgments.aux'.
 
- (./acknowledgments.tex) [37
+ (./acknowledgments.tex) [38
 
 
 
@@ -452,7 +455,7 @@ File: OrionKL/chmap/237.144.eps Graphic file (type eps)
 
 Package natbib Warning: Empty `thebibliography' environment on input line 4.
 
-)) [38
+)) [39
 
 
 
@@ -461,12 +464,12 @@ Package natbib Warning: Empty `thebibliography' environment on input line 4.
 (./chap4_discussion.aux) (./chap5_conclusions.aux) (./app_appendix.aux)
 (./acknowledgments.aux) (./chap_bib.aux)) ) 
 Here is how much of TeX's memory you used:
- 2585 strings out of 493693
- 33025 string characters out of 6149788
- 95855 words of memory out of 5000000
- 5990 multiletter control sequences out of 15000+600000
- 25204 words of font info for 92 fonts, out of 8000000 for 9000
+ 2597 strings out of 493693
+ 33151 string characters out of 6149788
+ 95877 words of memory out of 5000000
+ 5997 multiletter control sequences out of 15000+600000
+ 26174 words of font info for 95 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
  27i,10n,26p,458b,508s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on master.dvi (44 pages, 27908 bytes).
+Output written on master.dvi (45 pages, 29128 bytes).
