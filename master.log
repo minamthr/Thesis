@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.7-160201-2.6 (utf8.euc) (TeX Live 2016) (preloaded format=platex 2017.5.9)  5 JAN 2019 21:05
+This is e-pTeX, Version 3.14159265-p3.7-160201-2.6 (utf8.euc) (TeX Live 2016) (preloaded format=platex 2017.5.9)  11 JAN 2019 20:58
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -125,13 +125,21 @@ Package: setspace 2000/12/01 6.7 Contributed and Supported LaTeX2e package
 Package: `setspace' 6.7 <2000/12/01>
 ) (./times.sty
 Package: times 2000/01/12 PSNFSS-v8.1 Times font as default roman (SPQR) 
+) (/usr/local/texlive/2016/texmf-dist/tex/latex/here/here.sty)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count107
+\float@exts=\toks20
+\float@box=\box43
+\@float@everytoks=\toks21
+\@floatcapt=\box44
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks20
+\KV@toks@=\toks22
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2016/05/09 v1.0r Standard LaTeX Graphics (DPC,SPQR)
@@ -263,28 +271,63 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
 
  (./chap1_introduction.tex
 Chapter 1.
-) [1
+[1
 
 
-]
+]) [2]
 \openout2 = `chap2_OrionKL.aux'.
 
  (./chap2_OrionKL.tex
 Chapter 2.
-) [2
+File: OrionKL/mom0/217.758mom0_3-7.eps Graphic file (type eps)
+<OrionKL/mom0/217.758mom0_3-7.eps>
+File: OrionKL/mom0/245.202mom0_3-7.eps Graphic file (type eps)
+ <OrionKL/mom0/245.202mom0_3-7.eps>
+File: OrionKL/mom0/221.755SV_mom0_3-7.eps Graphic file (type eps)
+
+<OrionKL/mom0/221.755SV_mom0_3-7.eps>
+File: OrionKL/mom0/215.67mom0_3-7.eps Graphic file (type eps)
+ <OrionKL/mom0/215.67mom0_3-7.eps>
+[3
 
 
 
-]
-Overfull \vbox (12.67595pt too high) has occurred while \output is active []
+] [4]
+File: OrionKL/mom0/235.735mom0_3-7.eps Graphic file (type eps)
+ <OrionKL/mom0/235.735mom0_3-7.eps>
+File: OrionKL/mom0/229.908mom0_3-7.eps Graphic file (type eps)
+ <OrionKL/mom0/229.908mom0_3-7.eps>
+File: OrionKL/mom0/242.262SV_mom0_3-7.eps Graphic file (type eps)
 
+<OrionKL/mom0/242.262SV_mom0_3-7.eps>
+File: OrionKL/mom0/244.887mom0_3-7.eps Graphic file (type eps)
+ <OrionKL/mom0/244.887mom0_3-7.eps>
+File: OrionKL/chmap/217.758.eps Graphic file (type eps)
 
-[3]
+<OrionKL/chmap/217.758.eps>
+File: OrionKL/chmap/245.202.eps Graphic file (type eps)
+ <OrionKL/chmap/245.202.eps>
+File: OrionKL/chmap/235.735.eps Graphic file (type eps)
+
+<OrionKL/chmap/235.735.eps>
+File: OrionKL/chmap/242.262.eps Graphic file (type eps)
+ <OrionKL/chmap/242.262.eps>
+File: OrionKL/chmap/215.67.eps Graphic file (type eps)
+
+<OrionKL/chmap/215.67.eps>
+File: OrionKL/chmap/244.887.eps Graphic file (type eps)
+ <OrionKL/chmap/244.887.eps>
+File: OrionKL/chmap/221.755.eps Graphic file (type eps)
+
+<OrionKL/chmap/221.755.eps>
+File: OrionKL/chmap/229.908.eps Graphic file (type eps)
+ <OrionKL/chmap/229.908.eps>) [5] [6] [7] [8]
+[9] [10] [11] [12] [13]
 \openout2 = `chap3_LMSFRs.aux'.
 
  (./chap3_LMSFRs.tex
 Chapter 3.
-) [4
+) [14
 
 
 
@@ -293,7 +336,7 @@ Chapter 3.
 
  (./chap4_discussion.tex
 Chapter 4.
-) [5
+) [15
 
 
 
@@ -302,7 +345,7 @@ Chapter 4.
 
  (./chap5_conclusions.tex
 Chapter 5.
-) [6
+) [16
 
 
 
@@ -311,14 +354,94 @@ Chapter 5.
 
  (./app_appendix.tex
 Appendix A.
-) [7
+File: OrionKL/mom0/222.846SV_mom0_3-7.eps Graphic file (type eps)
+<OrionKL/mom0/222.846SV_mom0_3-7.eps>
+File: OrionKL/mom0/227.545SV_mom0_3-7.eps Graphic file (type eps)
+ <OrionKL/mom0/227.545SV_mom0_3-7.eps>
+File: OrionKL/mom0/231.844SV_mom0_3-7.eps Graphic file (type eps)
+
+<OrionKL/mom0/231.844SV_mom0_3-7.eps>
+File: OrionKL/mom0/242.625SV_mom0_3-7.eps Graphic file (type eps)
+ <OrionKL/mom0/242.625SV_mom0_3-7.eps>
+[17
 
 
 
-]
+] [18]
+File: OrionKL/mom0/231.524mom0_3-7.eps Graphic file (type eps)
+ <OrionKL/mom0/231.524mom0_3-7.eps>
+File: OrionKL/mom0/218.221mom0_3-7.eps Graphic file (type eps)
+
+<OrionKL/mom0/218.221mom0_3-7.eps>
+File: OrionKL/mom0/219.151mom0_3-7.eps Graphic file (type eps)
+ <OrionKL/mom0/219.151mom0_3-7.eps>
+File: OrionKL/mom0/227.997SV_mom0_3-7.eps Graphic file (type eps)
+
+<OrionKL/mom0/227.997SV_mom0_3-7.eps>
+File: OrionKL/mom0/231.061mom0_3-7.eps Graphic file (type eps)
+ <OrionKL/mom0/231.061mom0_3-7.eps>
+File: OrionKL/mom0/233.802mom0_3-7.eps Graphic file (type eps)
+
+<OrionKL/mom0/233.802mom0_3-7.eps> [19]
+File: OrionKL/mom0/231.576mom0_3-7.eps Graphic file (type eps)
+ <OrionKL/mom0/231.576mom0_3-7.eps>
+File: OrionKL/mom0/216.843mom0_3-7.eps Graphic file (type eps)
+
+<OrionKL/mom0/216.843mom0_3-7.eps>
+File: OrionKL/mom0/251.128mom0_3-7.eps Graphic file (type eps)
+ <OrionKL/mom0/251.128mom0_3-7.eps>
+File: OrionKL/mom0/218.409mom0_3-7.eps Graphic file (type eps)
+
+<OrionKL/mom0/218.409mom0_3-7.eps>
+File: OrionKL/mom0/217.67mom0_3-7.eps Graphic file (type eps)
+ <OrionKL/mom0/217.67mom0_3-7.eps>
+File: OrionKL/mom0/237.144mom0_3-7.eps Graphic file (type eps)
+
+<OrionKL/mom0/237.144mom0_3-7.eps> [20]
+File: OrionKL/chmap/222.846.eps Graphic file (type eps)
+ <OrionKL/chmap/222.846.eps>
+File: OrionKL/chmap/227.545.eps Graphic file (type eps)
+
+<OrionKL/chmap/227.545.eps>
+File: OrionKL/chmap/231.844.eps Graphic file (type eps)
+ <OrionKL/chmap/231.844.eps>
+File: OrionKL/chmap/242.625.eps Graphic file (type eps)
+
+<OrionKL/chmap/242.625.eps>
+File: OrionKL/chmap/231.524.eps Graphic file (type eps)
+ <OrionKL/chmap/231.524.eps>
+File: OrionKL/chmap/218.221.eps Graphic file (type eps)
+
+<OrionKL/chmap/218.221.eps>
+File: OrionKL/chmap/219.151.eps Graphic file (type eps)
+ <OrionKL/chmap/219.151.eps>
+File: OrionKL/chmap/227.997.eps Graphic file (type eps)
+
+<OrionKL/chmap/227.997.eps>
+File: OrionKL/chmap/231.061.eps Graphic file (type eps)
+ <OrionKL/chmap/231.061.eps>
+File: OrionKL/chmap/233.802.eps Graphic file (type eps)
+
+<OrionKL/chmap/233.802.eps>
+File: OrionKL/chmap/231.576.eps Graphic file (type eps)
+ <OrionKL/chmap/231.576.eps>
+File: OrionKL/chmap/216.843.eps Graphic file (type eps)
+
+<OrionKL/chmap/216.843.eps>
+File: OrionKL/chmap/251.128.eps Graphic file (type eps)
+ <OrionKL/chmap/251.128.eps>
+File: OrionKL/chmap/218.409.eps Graphic file (type eps)
+
+<OrionKL/chmap/218.409.eps>
+File: OrionKL/chmap/217.67.eps Graphic file (type eps)
+ <OrionKL/chmap/217.67.eps>
+File: OrionKL/chmap/237.144.eps Graphic file (type eps)
+
+<OrionKL/chmap/237.144.eps>) [21] [22] [23] [24] [25] [26] [27] [28] [29]
+[30] [31] [32] [33] [34] [35] [36]
 \openout2 = `acknowledgments.aux'.
 
- (./acknowledgments.tex) [8
+ (./acknowledgments.tex) [37
 
 
 
@@ -329,7 +452,7 @@ Appendix A.
 
 Package natbib Warning: Empty `thebibliography' environment on input line 4.
 
-)) [9
+)) [38
 
 
 
@@ -338,12 +461,12 @@ Package natbib Warning: Empty `thebibliography' environment on input line 4.
 (./chap4_discussion.aux) (./chap5_conclusions.aux) (./app_appendix.aux)
 (./acknowledgments.aux) (./chap_bib.aux)) ) 
 Here is how much of TeX's memory you used:
- 2338 strings out of 493693
- 28584 string characters out of 6149788
- 90993 words of memory out of 5000000
- 5806 multiletter control sequences out of 15000+600000
- 23589 words of font info for 86 fonts, out of 8000000 for 9000
+ 2585 strings out of 493693
+ 33025 string characters out of 6149788
+ 95855 words of memory out of 5000000
+ 5990 multiletter control sequences out of 15000+600000
+ 25204 words of font info for 92 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
- 27i,7n,26p,458b,358s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 27i,10n,26p,458b,508s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on master.dvi (15 pages, 14140 bytes).
+Output written on master.dvi (44 pages, 27908 bytes).
