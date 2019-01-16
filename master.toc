@@ -29,10 +29,10 @@
 \contentsline {section}{\numberline {3.4}L483}{16}
 \contentsline {subsection}{\numberline {3.4.1}Observation data}{16}
 \contentsline {subsection}{\numberline {3.4.2}Results}{16}
-\contentsline {chapter}{\numberline {4}Discussion }{18}
-\contentsline {chapter}{\numberline {5}Conclusions }{19}
-\contentsline {chapter}{\numberline {A}Distribution of methylamine lines contaminated by other molecular line emission in Orion-KL }{20}
-\contentsline {section}{\numberline {A.1}Integrated intensity maps}{20}
-\contentsline {section}{\numberline {A.2}Channel maps}{24}
-\contentsline {chapter}{Acknowledgments}{40}
-\contentsline {chapter}{References}{41}
+\contentsline {chapter}{\numberline {4}Discussion }{19}
+\contentsline {chapter}{\numberline {5}Conclusions }{20}
+\contentsline {chapter}{\numberline {A}Distribution of methylamine lines contaminated by other molecular line emission in Orion-KL }{21}
+\contentsline {section}{\numberline {A.1}Integrated intensity maps}{21}
+\contentsline {section}{\numberline {A.2}Channel maps}{25}
+\contentsline {chapter}{Acknowledgments}{41}
+\contentsline {chapter}{References}{42}
