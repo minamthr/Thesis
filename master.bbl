@@ -1,4 +1,23 @@
-\begin{thebibliography}{0}
+\begin{thebibliography}{4}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+
+\bibitem[{{Hirota} {et~al.}(2015){Hirota}, {Kim}, {Kurono}, \&
+  {Honma}}]{Hirota+2015}
+{Hirota}, T., {Kim}, M.~K., {Kurono}, Y., \& {Honma}, M. 2015, \apj, 801, 82
+
+\bibitem[{{McMullin} {et~al.}(2007){McMullin}, {Waters}, {Schiebel}, {Young},
+  \& {Golap}}]{McMullin+2007}
+{McMullin}, J.~P., {Waters}, B., {Schiebel}, D., {Young}, W., \& {Golap}, K.
+  2007, in Astronomical Society of the Pacific Conference Series, Vol. 376,
+  Astronomical Data Analysis Software and Systems XVI, ed. R.~A. {Shaw},
+  F.~{Hill}, \& D.~J. {Bell}, 127
+
+\bibitem[{{Pagani} {et~al.}(2017){Pagani}, {Favre}, {Goldsmith}, {Bergin},
+  {Snell}, \& {Melnick}}]{Pagani+2017}
+{Pagani}, L., {Favre}, C., {Goldsmith}, P.~F., {Bergin}, E.~A., {Snell}, R., \&
+  {Melnick}, G. 2017, \aap, 604, A32
+
+\bibitem[{{Turner}(1991)}]{Turner1991}
+{Turner}, B.~E. 1991, \apjs, 76, 617
 
 \end{thebibliography}
