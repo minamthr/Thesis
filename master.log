@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.7-160201-2.6 (utf8.euc) (TeX Live 2016) (preloaded format=platex 2017.5.9)  18 JAN 2019 21:34
+This is e-pTeX, Version 3.14159265-p3.7-160201-2.6 (utf8.euc) (TeX Live 2016) (preloaded format=platex 2017.5.9)  18 JAN 2019 21:46
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -165,10 +165,7 @@ Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 \Gin@req@height=\dimen130
 \Gin@req@width=\dimen131
 )
-(./jnl_list.tex) (./master.aux (./abstract.aux) (./tableofcontents.aux)
-(./chap1_introduction.aux) (./chap2_OrionKL.aux) (./chap3_LMSFRs.aux)
-(./chap4_discussion.aux) (./chap5_conclusions.aux) (./app_appendix.aux)
-(./acknowledgments.aux) (./chap_bib.aux))
+(./jnl_list.tex) (./master.aux)
 \openout1 = `master.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 62.
@@ -187,8 +184,8 @@ LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 62.
 LaTeX Font Info:    ... okay on input line 62.
 LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 62.
 LaTeX Font Info:    ... okay on input line 62.
- (I search kanjifont definition file:
-. . ) (I search font definition file: . . . . . . . )
+ (I search kanjifont definition file: . . )
+(I search font definition file: . . . . . . . )
 LaTeX Font Info:    Try loading font information for OT1+ptm on input line 62.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/ot1ptm.fd
@@ -277,6 +274,10 @@ Chapter 1.
  (./chap2_OrionKL.tex
 Chapter 2.
 
+Package natbib Warning: Citation `Pagani+2017' on page 4 undefined on input lin
+e 8.
+
+
 LaTeX Warning: Reference `tab:obs_orion' on page 4 undefined on input line 11.
 
 
@@ -286,10 +287,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 7--12
  []
 
 
-Underfull \hbox (badness 2393) in paragraph at lines 7--12
-\OT1/ptm/m/n/12 (ADS/JAO.ALMA#2013.1.00553.S, see Pa-gani et al. (2017)) We als
-o em-ployed
- []
+LaTeX Warning: Reference `sec:Statcont' on page 4 undefined on input line 17.
 
 
 Underfull \hbox (badness 1881) in paragraph at lines 13--18
@@ -309,10 +307,23 @@ File: OrionKL/spec_spw2.eps Graphic file (type eps)
 
 <OrionKL/spec_spw2.eps>
 File: OrionKL/spec_spw13.eps Graphic file (type eps)
- <OrionKL/spec_spw13.eps> [5] [6]
-File: OrionKL/mom0/217.758mom0_3-7.eps Graphic file (type eps)
+ <OrionKL/spec_spw13.eps> [5]
 
-<OrionKL/mom0/217.758mom0_3-7.eps>
+Package natbib Warning: Citation `McMullin+2007' on page 6 undefined on input l
+ine 66.
+
+
+LaTeX Warning: Reference `tab_MAOri' on page 6 undefined on input line 76.
+
+
+LaTeX Warning: Reference `tab_MAOri' on page 6 undefined on input line 82.
+
+
+LaTeX Warning: Reference `tab_MAOri' on page 6 undefined on input line 87.
+
+[6]
+File: OrionKL/mom0/217.758mom0_3-7.eps Graphic file (type eps)
+ <OrionKL/mom0/217.758mom0_3-7.eps>
 File: OrionKL/mom0/245.202mom0_3-7.eps Graphic file (type eps)
  <OrionKL/mom0/245.202mom0_3-7.eps>
 File: OrionKL/mom0/221.755SV_mom0_3-7.eps Graphic file (type eps)
@@ -320,6 +331,14 @@ File: OrionKL/mom0/221.755SV_mom0_3-7.eps Graphic file (type eps)
 <OrionKL/mom0/221.755SV_mom0_3-7.eps>
 File: OrionKL/mom0/215.67mom0_3-7.eps Graphic file (type eps)
  <OrionKL/mom0/215.67mom0_3-7.eps>
+
+Package natbib Warning: Citation `Hirota+2015' on page 7 undefined on input lin
+e 158.
+
+
+Package natbib Warning: Citation `Hirota+2015' on page 7 undefined on input lin
+e 158.
+
 [7] [8]
 File: OrionKL/mom0/235.735mom0_3-7.eps Graphic file (type eps)
  <OrionKL/mom0/235.735mom0_3-7.eps>
@@ -373,7 +392,12 @@ File: OrionKL/spectrum/HC/242.2620195w_fit.eps Graphic file (type eps)
 <OrionKL/spectrum/HC/242.2620195w_fit.eps>
 File: OrionKL/spectrum/HC/244.8869007w_fit.eps Graphic file (type eps)
 
-<OrionKL/spectrum/HC/244.8869007w_fit.eps> [18] [19]
+<OrionKL/spectrum/HC/244.8869007w_fit.eps> [18]
+
+Package natbib Warning: Citation `Turner1991' on page 19 undefined on input lin
+e 361.
+
+[19]
 
 LaTeX Warning: Reference `fig:RD' on page 20 undefined on input line 382.
 
@@ -522,21 +546,33 @@ File: OrionKL/chmap/237.144.eps Graphic file (type eps)
 
 
 
-] (./master.aux (./abstract.aux) (./tableofcontents.aux)
+]
+
+Package natbib Warning: There were undefined citations.
+
+(./master.aux (./abstract.aux) (./tableofcontents.aux)
 (./chap1_introduction.aux) (./chap2_OrionKL.aux) (./chap3_LMSFRs.aux)
 (./chap4_discussion.aux) (./chap5_conclusions.aux) (./app_appendix.aux)
-(./acknowledgments.aux) (./chap_bib.aux))
+(./acknowledgments.aux) (./chap_bib.aux
+
+Package natbib Warning: Citation(s) may have changed.
+(natbib)                Rerun to get citations correct.
+
+))
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  ) 
 Here is how much of TeX's memory you used:
- 2643 strings out of 493693
- 34141 string characters out of 6149788
- 96223 words of memory out of 5000000
- 6028 multiletter control sequences out of 15000+600000
+ 2612 strings out of 493693
+ 33597 string characters out of 6149788
+ 91891 words of memory out of 5000000
+ 6017 multiletter control sequences out of 15000+600000
  26174 words of font info for 95 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
- 27i,11n,31p,504b,508s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 27i,11n,27p,504b,508s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on master.dvi (55 pages, 42684 bytes).
+Output written on master.dvi (55 pages, 42636 bytes).
