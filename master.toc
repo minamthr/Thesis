@@ -15,11 +15,11 @@
 \contentsline {subsection}{\numberline {2.2.2}Line identification}{6}
 \contentsline {section}{\numberline {2.3}Results}{7}
 \contentsline {subsection}{\numberline {2.3.1}Transitions}{7}
-\contentsline {subsection}{\numberline {2.3.2}Distribution}{8}
-\contentsline {subsection}{\numberline {2.3.3}Spectrum}{18}
-\contentsline {section}{\numberline {2.4}Disucssion}{19}
-\contentsline {subsection}{\numberline {2.4.1}Column density and Rotation temperature}{19}
-\contentsline {subsection}{\numberline {2.4.2}Blending}{20}
+\contentsline {subsection}{\numberline {2.3.2}Distribution}{9}
+\contentsline {subsection}{\numberline {2.3.3}Spectrum}{17}
+\contentsline {section}{\numberline {2.4}Disucssion}{18}
+\contentsline {subsection}{\numberline {2.4.1}Column density and Rotation temperature}{18}
+\contentsline {subsection}{\numberline {2.4.2}Blending}{19}
 \contentsline {chapter}{\numberline {3}Methylamine survey in low mass star-forming regions }{21}
 \contentsline {section}{\numberline {3.1}Review of low mass star-forming region}{22}
 \contentsline {section}{\numberline {3.2}Analysis}{22}
