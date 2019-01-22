@@ -45,8 +45,12 @@ the Internet\footnote{http://cdsarc.u-strasbg.fr/viz-bin/qcat?J/A+A/604/A32}.
 Since the SV data contained not only line emission but continuum emission, 
 we subtracted continuum emission statistically by the method described in Section \ref{sec:Statcont}.
 
+In addition, we used Common Astronomy Software Applications (CASA) software \citep{McMullin+2007} 
+during the procedure to analyze observational data.
+
+\newpage
 \section{Analysis}
-\subsection{Continuum Subtraction of SV data}
+\subsection{Reduction of SV data}
 \label{sec:Statcont}
 
 With the advent of highly sensitive facilities such as ALMA, the spectral lines which were hindered 
@@ -56,7 +60,7 @@ In the analysis of molecular emission lines, the determination and the subtracti
 emission is an essential, but difficult task. 
 Therefore, we improved the method devised in \citet{Sanchez-Monge+2017} and deduced continuum subtraction 
 in the observed UV domain (the raw visibilities measured by the interferometer).
-We introduce the method and results in this section.
+We introduce the manner and results in this section.
 
 \subsubsection*{Determination of the continuum level}
 The determination of the continuum emission level of astronomical sources observed in a spectral line 
@@ -68,15 +72,13 @@ In the case of Orion-KL, many molecular emission exist in Hot core
 Compact ridge(RA$_{J2000}: 05^{\rm{h}}35^{\rm{m}}14^{\rm{s}}.2775$, Dec$_{J2000}:-05^{\circ}22'30''.776$), 
 so we extracted spectra from circular regions with a diameter of 1''.0  with the coordinates indicated by 
 \citet{Hirota+2015} as the center.
-The peak of the distribution is determined over the entire range of the intesity values with a simple 
-symmetric Gaussian fit when assuming the gaussian random error resulting in an estimate of 
-the mean value $E$ and the standard deviation $\sigma$. 
-%%%ここまで書いた
+The peak of the distribution of the intensity values is determined with a Gaussian fit 
+when assuming the Gaussian random error resulting in an estimate of the mean value $E$ 
+and the standard deviation $\sigma$. 
 The width is small in case of pixels with little or no line emission, but for line contaminated 
 regions the distribution becomes broader and the exact location of the peak more uncertain. 
-Subsequently, a skewed Gaussian is fitted to the part of the distribution within $ E - 3 \sigma$ and the 
-new centroid (now not necessarily symmetric) is recorded as the continuum level that can 
-then be used for continuum subtraction for that particular pixel.
+Therefore, we set the upper limit of the intensity to 1/3 of the peak, and the Gaussian fit is performed within that range, 
+and we calculated the mean value $E$ and the standard deviation $\sigma$.
 
 \begin{figure}[htbp] 
 \begin{center}
@@ -102,48 +104,59 @@ shown are the flux distributions of Hot core (histogram) with the resulting fit 
 \end{center}
 \end{figure}
 
+\newpage
 
+\subsubsection*{Imaging line cubes}
+Subsequently, the part of the distribution within $E - 3\sigma$ is defined as line-free channels.
+Hot core and Compact ridges have different spectrums because of the disparate chemical composition, 
+so we determined the line-free channels individually and subtracted the continuum
+in the UV domain by CASA task {\sc uvcontsub} with channels common to the two regions.
+After the continuum subtraction, line cubes of Orion-KL were made using the CASA task {\sc clean}.
+
+Figure \ref{SVspec} shows examples of difference spectrum towards Hot core. 
+It can be confirmed that the continuum subtraction has succeeded.
 
 \begin{figure}[htbp]
   \centering
   \includegraphics[width=0.98\textwidth]{OrionKL/spec_spw2.eps}
   \includegraphics[width=0.98\textwidth]{OrionKL/spec_spw13.eps}
   \caption{The original spectra (gray) and continuum-subtracted spectra (red) towards Hot core. 
-  The continuum emission level subtracted to the original spectra, together with its uncertainty,
-  is listed in the upper right part of each panel.}
+  The dotted line represents the base line (0 level). The continuum emission level subtracted to the original spectra, 
+  together with its uncertainty, is listed in the upper right part of each panel.}
   \label{SVspec}
 \end{figure}
 
 
-
+\newpage
 \subsection{Line identification}
+In order to find out where common signals exist, we drew integrated intensity maps 
+using CASA task {\sc immoment}. The integrated velocity range is 3.0-12.0 km s$^{-1}$, corresponding
+typical velocity component of Hot core (4.8-6 km s$^{-1}$) and that of Compact ridge 
+(7.2-9.6 km s$^{-1}$) \citep{Feng+2015}.
+Spectroscopic data are provided by \citet{Motiyenko+2014} and 
+JPL Molecular Spectroscopy catalog\footnote{http://spec.jpl.nasa.gov}.
 
-We drew CH$_{3}$NH$_{2}$ emission maps using Common Astronomy Software Applications 
-(CASA) software \citep{McMullin+2007}.
-We used JPL Molecular Spectroscopy catalog to identify the transition lines. 
-8 spectral features exhibit a compact emission at the center of the Hot core . 
-We extracted spectrum from this region.
-Possible line blending with CH$_{3}$NH$_{2}$ was investigated by JPL database\footnote{http://spec.jpl.nasa.gov}, 
+Then, since emission at the center of Hot core were found in most of integrated intensity maps, 
+we extracted spectrum for transitions with no line blending around $\pm$2 km~s$^{-1}$ from Hot core.
+Possible line blending ($E_{\mathrm{u}} < 500\, \mathrm{K}$) with CH$_{3}$NH$_{2}$ was investigated by JPL database, 
 the Cologne database for molecular spectroscopy (CDMS)\footnote{http://www.astro.uni-koeln.de/cdms/}, 
 and Splatalogue\footnote{http://www.splalogue.net/}. 
 
-2. We estimated the systemic velocity and the line width of 217.758 GHz line, 
-reported by Pagani et al. (2017), which seem contaminated by 
-other lines.
-
-3. Using these value, we obtained the integrated 
-intensity of 8 transitions described in Table \ref{tab_MAOri} by Gaussian fitting.
+Subsequently, we estimated the systemic velocity and the line width of 217.758 GHz line, 
+reported by \citet{Pagani+2017}, which does not seem contaminated by other molecular lines.
+At last, using these value, we obtained the integrated intensity of 6 transitions described in 
+Table \ref{tab:MAOri} by the Gaussian fitting.
 
 
-
+\newpage
 \section{Results}
-\subsection{Transitions}
-The data obtained for  CH$_{3}$NH$_{2}$ are summarized in Table \ref{tab_MAOri}.
+%\subsection{Transitions}
+The data obtained for CH$_{3}$NH$_{2}$ are summarized in Table \ref{tab:MAOri}.
 Here the rest frequencies, $S\mu^2$, upper state energy ($E_{\mathrm{u}}$), the quantum numbers,
 noise level, and peak brightness temperature are given.
 Out of 32 predicted transitions ($S\mu^2 > 25\,\mathrm{D^2}$ and $E_{\mathrm{u}} < 200 \,\mathrm{K}$) 
 in our observational frequency range, 6 were probably identified in this data set, and are reported in
-Table \ref{tab_MAOri}. The remaining 18 CH$_{3}$NH$_{2}$ transitions are
+Table \ref{tab:MAOri}. The remaining 18 CH$_{3}$NH$_{2}$ transitions are
 blended with or masked by other spectral features, or its signal are below the noise level 
 (See Appendix A). 
 
@@ -152,25 +165,37 @@ blended with or masked by other spectral features, or its signal are below the n
 \begin{center}
 
   \caption{Observed rotational transitions of CH$_3$NH$_2$ in Orion-KL}
-  \label{tab_MAOri}
+  \label{tab:MAOri}
 {\scriptsize
-  \begin{tabular}{ccccccl} \hline
-   Fequency [GHz]& S$\mu ^{2}$ [D$^2$] & E$_{\rm{u}}$ [K]& Transition ($J$, $K_{\rm{a}}$, $\Gamma$) & Noise [K] & peak $T_{\mathrm{B}} [K]$ &Comments \\ \hline 
-%    215.670 & 53.92 & 111.48 & 9, 2, $E_{1-1}$ $\rightarrow$ 9, 1, $E_{1+1}$ && &  \\
-    245.202 & 37.84 & 168.31 & 12, 1, $B_{2}$ $\rightarrow$ 11, 2, $B_{1}$ & &&Reported in Pagani+17 \\
-    217.758 & 129.88 & 182.05 & 12, 2, $B_{2}$ $\rightarrow$ 12, 1, $B_{1}$ &&&Reported in Pagani+17 \\
-%    221.755 & 35.06 & 133.11 & 10, 2, $A_{2}$ $\rightarrow$ 10, 1, $A_{1}$ &&&SV data \\
-    229.908 & 27.37 & 92.71 & 8, 2, $A_{2}$ $\rightarrow$ 8, 1, $A_{1}$ & &&\\ 
-    235.735 & 82.06 & 92.76 & 8, 2, $B_{2}$ $\rightarrow$ 8, 1, $B_{1}$ &&&Reported in Pagani+17 \\
-    242.262 & 60.23 & 60.86 & 6, 2, $B_{2}$ $\rightarrow$ 6, 1, $B_{1}$ &&&SV data \\
-    244.887 & 49.54 & 48.09 & 5, 2, $B_{1}$ $\rightarrow$ 5, 1, $B_{2}$ &&&Reported in Pagani+17 \\ \hline
+  \begin{tabular}{cccccccl} \hline
+   Fequency [GHz]& S$\mu ^{2}$ [D$^2$] & E$_{\rm{u}}$ [K]& Transition ($J$, $K_{\rm{a}}$, $\Gamma$) & peak $T_{\mathrm{B}}$ [K] & $V_{\mathrm{LSR}}$ [km s$^{-1}$] & Noise [K]  &Comments \\ \hline 
+%    215.670 & 53.92 & 111.48 & 9, 2, $E_{1-1}$ $\rightarrow$ 9, 1, $E_{1+1}$  & 3.74(0.07) & 0.043 &  \\
+    217.758 & 129.88 & 182.05 & 12, 2, $B_{2}$ $\rightarrow$ 12, 1, $B_{1}$ & 0.86(0.03) & 4.73(0.08) & 0.034 &Reported in Pagani+17 \\
+    245.202 & 37.84 & 168.31 & 12, 1, $B_{2}$ $\rightarrow$ 11, 2, $B_{1}$ & 0.37(0.01) & 4.51(0.08) & 0.037 &Reported in Pagani+17 \\
+%    221.755 & 35.06 & 133.11 & 10, 2, $A_{2}$ $\rightarrow$ 10, 1, $A_{1}$ & 0.33(0.03)& 0.133 &SV data \\
+    229.908 & 27.37 & 92.71 & 8, 2, $A_{2}$ $\rightarrow$ 8, 1, $A_{1}$ & 0.65(0.01) & 4.91(0.03) & 0.064&\\ 
+    235.735 & 82.06 & 92.76 & 8, 2, $B_{2}$ $\rightarrow$ 8, 1, $B_{1}$ & 1.70(0.02) & 4.86(0.03) & 0.081 &Reported in Pagani+17 \\
+    242.262 & 60.23 & 60.86 & 6, 2, $B_{2}$ $\rightarrow$ 6, 1, $B_{1}$ & 2.03(0.03) & 4.80(0.09) & 0.166 &SV data \\
+    244.887 & 49.54 & 48.09 & 5, 2, $B_{1}$ $\rightarrow$ 5, 1, $B_{2}$ & 1.29(0.57)& 5.23(0.90) & 0.043 &Reported in Pagani+17 \\ \hline
   \end{tabular}
   }
 \end{center}
 \end{table}
 
-\subsection{Distribution}
+\subsection{Overall CH$_3$NH$_2$ distribution}
+CH$_3$NH$_2$ emission appears mainly at Hot core and partially at IRc7.
+According to previous work \citep[see e.g.,][]{Feng+2015, Gong+2015}, N-bearing species tend to have 
+similar peak at or near Hot core.  CH$_3$NH$_2$ also shows the same trend.
 
+In the integrated intensity map of 229.908 GHz line, emission come from the south part of Hot core.
+Since it can be confirmed that the velocity component is different in the channel map (see Figure \ref{ch_7}), 
+this is considered to be the emission of another molecular line.
+
+in addition, the extended emission in Hot core and the compact structure at Compact ridge are seen 
+in the integrated intensity map of 242.262 GHz line. These are also considered to be emission from other molecule line 
+by the channel map (Figure \ref{ch_5}) and spectrum (Figure \ref{fig:spec}).
+
+\newpage
 %%%%% 積分強度図挿入 %%%%%
 \begin{figure}[H] 
 \begin{center}
@@ -209,19 +234,11 @@ blended with or masked by other spectral features, or its signal are below the n
 %\end{minipage}
 %\end{center}
 %\end{minipage}
+%\end{center}
+%\end{figure}
 
-\caption{Integrated intensity maps of unblended CH$_{3}$NH$_{2}$ lines. 
-The white contours show the 1.3 mm continuum map from \citet{Hirota+2015},
-where the contour levels are 10 \%, 30 \%, 50 \%, 70 \%, 90 \% of the peak intensity.
-Black crosses denote Hot core, IRc7, and Compact ridge. 
-The rest frequency of each transition shows in the upper right part of each panel.}
-\end{center}
-\end{figure}
-
-\newpage
-
-\begin{figure}[H] 
-\begin{center}
+%\begin{figure}[H] 
+%\begin{center}
 \begin{minipage}{0.98\textwidth} 
 \begin{center}
 %%%% ここから
@@ -258,7 +275,12 @@ The rest frequency of each transition shows in the upper right part of each pane
 \end{center}
 \end{minipage}
 
-\caption{(Continued)}
+\caption{Integrated intensity maps of unblended CH$_{3}$NH$_{2}$ lines. 
+The white contours show the 1.3 mm continuum map from \citet{Hirota+2015},
+where the contour levels are 10 \%, 30 \%, 50 \%, 70 \%, 90 \% of the peak intensity.
+Black crosses denote Hot core, IRc7, and Compact ridge. 
+The rest frequency of each transition shows in the upper right part of each panel.}
+%\caption{(Continued)}
 \end{center}
 \end{figure}
 %%%%% 積分強度図ここまで %%%%%
@@ -295,26 +317,12 @@ The rest frequency of each transition shows in the upper right part of each pane
   \label{ch_3}
 \end{figure}
 
-%\begin{figure}[H]
-%  \centering
-%  \includegraphics[width=0.98\textwidth]{OrionKL/chmap/215.67.eps}
-%  \caption{Channel map of expected unblended 215.670 GHz line.}
-%  \label{ch_4}
-%\end{figure}
-
 \begin{figure}[H]
   \centering
   \includegraphics[width=0.98\textwidth]{OrionKL/chmap/244.887.eps}
   \caption{Channel map of expected unblended 244.887 GHz line.}
   \label{ch_5}
 \end{figure}
-
-%\begin{figure}[H]
-%  \centering
-%  \includegraphics[width=0.98\textwidth]{OrionKL/chmap/221.755.eps}
-%  \caption{Channel map of expected unblended 221.755 GHz line.}
-%  \label{ch_6}
-%\end{figure}
 
 \begin{figure}[H]
   \centering
@@ -324,6 +332,8 @@ The rest frequency of each transition shows in the upper right part of each pane
 \end{figure}
 
 \subsection{Spectrum}
+スペクトルはHot core(RA$_{J2000}: 05^{\rm{h}}35^{\rm{m}}14^{\rm{s}}.580$, Dec$_{J2000}:-05^{\circ}22'31''.029$)を中心に直径1秒の領域から抽出し、ガウシアンフィットを行なった。
+
 %%%%% スペクトル挿入 %%%%%
 \begin{figure}[H] 
 \begin{center}
@@ -398,6 +408,7 @@ The rest frequency of each transition shows in the upper right part of each pane
 \end{center}
 \end{minipage}
 
+\label{fig:spec}
 \caption{Spectrum of the CH$_3$NH$_2$ lines at each frequency observed in Hot core center (black) 
   and the result of the Gaussian fitting (red).}
 \end{center}
@@ -420,8 +431,8 @@ The following equation was employed for the analysis \citep{Turner1991}:
 In the expression, $\nu$ is the rest frequency of the transition, $\mu_0$ is the permanent dipole moment, 
 $U_{\mathrm{rot}}$ is the rotational partition function, $S$ is the line strength, 
 $E_{\mathrm{u}}$ is the upper state energy, and $ T_{\mathrm{B}}$ and  $\Delta V_{1/2}$ 
-are the brightness temperature and line widths (FWHM, in km s$^{-1}$), respectively.
-We assumed $\Delta V_{1/2} = 4.24\, \mathrm{km\,s^{-1}}$, which derived by the Gaussian fitting for 
+are the brightness temperature and line widths (FWHM, in~km~s$^{-1}$), respectively.
+We assumed $\Delta V_{1/2} = 4.0\, \mathrm{km\,s^{-1}}$, which derived by the Gaussian fitting for 
 217.758 GHz line.
 
 The brightness temperature can be converted from intensity $I_{\mathrm{\nu}}$
@@ -438,17 +449,98 @@ T_{\mathrm{B}} = \dfrac{c^2}{2\,k_{\mathrm{B}}\, \nu^2} \,I_{\mathrm{\nu}}
 \end{figure}
 
 The resulting plots are given in Figure \ref{fig:RD}.
-The analysis yields a rotational temperature of $T_{\mathrm{rot}} =  95.4^{+15.5}_{-11.7} \,\mathrm{K}$, 
-with a column density of $N_{\mathrm{MA}} = ( 5.5^{+1.6}_{-1.1} ) \times 10^{14} \,\mathrm{cm^{-2}}$.
+The analysis yields a rotational temperature of $T_{\mathrm{rot}} =  95.4^{+15.5}_{-11.7} \,\,\mathrm{K}$, 
+with a column density of $N_{\mathrm{MA}} = ( 5.5^{+1.6}_{-1.1} ) \times 10^{14} \,\,\mathrm{cm^{-2}}$.
 
-\subsection{Blending}
-As shown in Figure \ref{fig:RD_7point}, the CH$_{3}$NH$_{2}$ data produced point-to-point scatter  
-perhaps because of the lower signal-to-noise ratio for the weaker transitions in SV data and 
-possible low-level contamination.
+\subsection{Undetectable lines}
+Comparison of catalogs did not suggest contamination, but some emission lines could not be detected as CH$_{3}$NH$_{2}$.
+
+\renewcommand{\arraystretch}{1.5}
+\begin{table}[htb]
+\begin{center}
+
+  \caption{transitions of CH$_3$NH$_2$}
+  \label{tab:unresolved}
+{\scriptsize
+  \begin{tabular}{cccccccl} \hline
+   Fequency [GHz]& S$\mu ^{2}$ [D$^2$] & E$_{\rm{u}}$ [K]& Transition ($J$, $K_{\rm{a}}$, $\Gamma$) 
+   & peak $T_{\mathrm{B}}$ [K] & $V_{\mathrm{LSR}}$ [km s$^{-1}$] & Noise [K]  &Comments \\ \hline 
+    215.670 & 53.92 & 111.48 & 9, 2, $E_{1-1}$ $\rightarrow$ 9, 1, $E_{1+1}$  & 3.74(0.07) & 5.37(0.07) & 0.043 &  \\
+    221.755 & 35.06 & 133.11 & 10, 2, $A_{2}$ $\rightarrow$ 10, 1, $A_{1}$ & 0.33(0.03)& 5.35(0.19) & 0.133 &SV data \\ \hline
+  \end{tabular}
+  }
+\end{center}
+\end{table}
+
+As shown in Figure \ref{fig:RD_7point}, the CH$_{3}$NH$_{2}$ data including 2 transitions in Table \ref{tab:unresolved} 
+produced point-to-point scatter perhaps because of the lower signal-to-noise ratio for the weaker transitions in SV data 
+and possible low-level contamination.
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.8\textwidth]{OrionKL/RD_7point_label.eps}
-  \caption{Rotation diagram of CH$_{3}$NH$_{2}$ in Hot core with more lines. The error bars represents $\pm$ 3 $\sigma$ for each data. Upper limit is indicated with triagle.}
+  \includegraphics[width=0.7\textwidth]{OrionKL/RD_7point_label.eps}
+  \caption{Rotation diagram of CH$_{3}$NH$_{2}$ in Hot core with more 2 lines. The error bars represents $\pm$ 3 $\sigma$ for each data. Upper limit is indicated with triangle. ※6点のみ用いた一次関数と、ノイズレベルの上限も含めた図に差し替え }
   \label{fig:RD_7point}
+\end{figure}
+
+\subsubsection*{215.670 GHz line}
+
+\begin{figure}[H] 
+\begin{center}
+\begin{minipage}{0.98\textwidth} 
+\begin{center}
+\begin{minipage}{0.48\textwidth}
+\begin{center}
+\includegraphics[width=0.98\textwidth]{OrionKL/spectrum/HC/215.6696452w_fit.eps}
+\\(c) 左の図の説明
+\end{center}
+\end{minipage}
+\begin{minipage}{0.48\textwidth}
+\begin{center}
+\includegraphics[width=0.98\textwidth]{OrionKL/mom0/215.67mom0_3-7.eps}
+\\(d) 右の図の説明
+\end{center}
+\end{minipage}
+\end{center}
+\end{minipage}
+\caption{215GHz.}
+\end{center}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.98\textwidth]{OrionKL/chmap/215.67.eps}
+  \caption{Channel map of expected unblended 215.670 GHz line.}
+  \label{ch_4}
+\end{figure}
+
+\subsubsection*{221.755 GHz line}
+
+\begin{figure}[H] 
+\begin{center}
+\begin{minipage}{0.98\textwidth} 
+\begin{center}
+\begin{minipage}{0.48\textwidth}
+\begin{center}
+\includegraphics[width=0.98\textwidth]{OrionKL/spectrum/HC/221.755055w_fit.eps}
+\\(c) 左の図の説明
+\end{center}
+\end{minipage}
+\begin{minipage}{0.48\textwidth}
+\begin{center}
+\includegraphics[width=0.98\textwidth]{OrionKL/mom0/221.755SV_mom0_3-7.eps}
+\\(d) 右の図の説明
+\end{center}
+\end{minipage}
+\end{center}
+\end{minipage}
+\caption{221.755 GHz.}
+\end{center}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.98\textwidth]{OrionKL/chmap/221.755.eps}
+  \caption{Channel map of expected unblended 221.755 GHz line.}
+  \label{ch_6}
 \end{figure}

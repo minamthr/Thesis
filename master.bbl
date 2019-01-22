@@ -1,9 +1,71 @@
-\begin{thebibliography}{5}
+\begin{thebibliography}{18}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+
+\bibitem[{{Altwegg} {et~al.}(2016){Altwegg}, {Balsiger}, {Bar-Nun},
+  {Berthelier}, {Bieler}, {Bochsler}, {Briois}, {Calmonte}, {Combi}, {Cottin},
+  {De Keyser}, {Dhooghe}, {Fiethe}, {Fuselier}, {Gasc}, {Gombosi}, {Hansen},
+  {Haessig}, {Ja ckel}, {Kopp}, {Korth}, {Le Roy}, {Mall}, {Marty}, {Mousis},
+  {Owen}, {Reme}, {Rubin}, {Semon}, {Tzou}, {Waite}, \& {Wurz}}]{Altwegg+2016}
+{Altwegg}, K., {et~al.} 2016, Science Advances, 2, e1600285
+
+\bibitem[{{Altwegg} {et~al.}(2017){Altwegg}, {Balsiger}, {Berthelier},
+  {Bieler}, {Calmonte}, {Fuselier}, {Goesmann}, {Gasc}, {Gombosi}, {Le Roy},
+  {de Keyser}, {Morse}, {Rubin}, {Schuhmann}, {Taylor}, {Tzou}, \&
+  {Wright}}]{Altwegg+2017}
+---. 2017, \mnras, 469, S130
+
+\bibitem[{{Bossa} {et~al.}(2009){Bossa}, {Duvernay}, {Theul{\'e}}, {Borget},
+  {D'Hendecourt}, \& {Chiavassa}}]{Bossa+2009}
+{Bossa}, J.-B., {Duvernay}, F., {Theul{\'e}}, P., {Borget}, F., {D'Hendecourt},
+  L., \& {Chiavassa}, T. 2009, \aap, 506, 601
+
+\bibitem[{{Ehrenfreund} {et~al.}(2001){Ehrenfreund}, {Bernstein}, {Dworkin},
+  {Sandford}, \& {Allamandola}}]{Ehrenfreund+2001}
+{Ehrenfreund}, P., {Bernstein}, M.~P., {Dworkin}, J.~P., {Sandford}, S.~A., \&
+  {Allamandola}, L.~J. 2001, \apjl, 550, L95
+
+\bibitem[{{Feng} {et~al.}(2015){Feng}, {Beuther}, {Henning}, {Semenov},
+  {Palau}, \& {Mills}}]{Feng+2015}
+{Feng}, S., {Beuther}, H., {Henning}, T., {Semenov}, D., {Palau}, A., \&
+  {Mills}, E.~A.~C. 2015, \aap, 581, A71
+
+\bibitem[{{Fourikis} {et~al.}(1974){Fourikis}, {Takagi}, \&
+  {Morimoto}}]{Fourikis+1974}
+{Fourikis}, N., {Takagi}, K., \& {Morimoto}, M. 1974, \apjl, 191, L139
+
+\bibitem[{{Glavin} {et~al.}(2008){Glavin}, {Dworkin}, \&
+  {Sandford}}]{Glavin+2008}
+{Glavin}, D.~P., {Dworkin}, J.~P., \& {Sandford}, S.~A. 2008, Meteoritics and
+  Planetary Science, 43, 399
+
+\bibitem[{{Gong} {et~al.}(2015){Gong}, {Henkel}, {Thorwirth}, {Spezzano},
+  {Menten}, {Walmsley}, {Wyrowski}, {Mao}, \& {Klein}}]{Gong+2015}
+{Gong}, Y., {et~al.} 2015, \aap, 581, A48
 
 \bibitem[{{Hirota} {et~al.}(2015){Hirota}, {Kim}, {Kurono}, \&
   {Honma}}]{Hirota+2015}
 {Hirota}, T., {Kim}, M.~K., {Kurono}, Y., \& {Honma}, M. 2015, \apj, 801, 82
+
+\bibitem[{{Holtom} {et~al.}(2005){Holtom}, {Bennett}, {Osamura}, {Mason}, \&
+  {Kaiser}}]{Holtom+2005}
+{Holtom}, P.~D., {Bennett}, C.~J., {Osamura}, Y., {Mason}, N.~J., \& {Kaiser},
+  R.~I. 2005, \apj, 626, 940
+
+\bibitem[{{Kaifu} {et~al.}(1974){Kaifu}, {Morimoto}, {Nagane}, {Akabane},
+  {Iguchi}, \& {Takagi}}]{Kaifu+1974}
+{Kaifu}, N., {Morimoto}, M., {Nagane}, K., {Akabane}, K., {Iguchi}, T., \&
+  {Takagi}, K. 1974, \apjl, 191, L135
+
+\bibitem[{{Kounkel} {et~al.}(2017){Kounkel}, {Hartmann}, {Loinard},
+  {Ortiz-Le{\'o}n}, {Mioduszewski}, {Rodr{\'{\i}}guez}, {Dzib}, {Torres},
+  {Pech}, {Galli}, {Rivera}, {Boden}, {Evans}, {Brice{\~n}o}, \&
+  {Tobin}}]{Kounkel+2017}
+{Kounkel}, M., {et~al.} 2017, \apj, 834, 142
+
+\bibitem[{{Lee} {et~al.}(2009){Lee}, {Kim}, {Moon}, {Minh}, \&
+  {Kang}}]{Lee+2009}
+{Lee}, C.-W., {Kim}, J.-K., {Moon}, E.-S., {Minh}, Y.~C., \& {Kang}, H. 2009,
+  \apj, 697, 428
 
 \bibitem[{{McMullin} {et~al.}(2007){McMullin}, {Waters}, {Schiebel}, {Young},
   \& {Golap}}]{McMullin+2007}
@@ -11,6 +73,11 @@
   2007, in Astronomical Society of the Pacific Conference Series, Vol. 376,
   Astronomical Data Analysis Software and Systems XVI, ed. R.~A. {Shaw},
   F.~{Hill}, \& D.~J. {Bell}, 127
+
+\bibitem[{{Motiyenko} {et~al.}(2014){Motiyenko}, {Ilyushin}, {Drouin}, {Yu}, \&
+  {Margul{\`e}s}}]{Motiyenko+2014}
+{Motiyenko}, R.~A., {Ilyushin}, V.~V., {Drouin}, B.~J., {Yu}, S., \&
+  {Margul{\`e}s}, L. 2014, \aap, 563, A137
 
 \bibitem[{{Pagani} {et~al.}(2017){Pagani}, {Favre}, {Goldsmith}, {Bergin},
   {Snell}, \& {Melnick}}]{Pagani+2017}
