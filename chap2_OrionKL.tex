@@ -77,8 +77,8 @@ when assuming the Gaussian random error resulting in an estimate of the mean val
 and the standard deviation $\sigma$. 
 The width is small in case of pixels with little or no line emission, but for line contaminated 
 regions the distribution becomes broader and the exact location of the peak more uncertain. 
-Therefore, we set the upper limit of the intensity to 1/3 of the peak, and the Gaussian fit is performed within that range, 
-and we calculated the mean value $E$ and the standard deviation $\sigma$.
+Therefore, we set the range of the Gaussian fitting from 0 to 1/3 of the peak intensity in line contaminated side,
+and calculated the mean value $E$ and the standard deviation $\sigma$.
 
 \begin{figure}[htbp] 
 \begin{center}
@@ -130,10 +130,10 @@ It can be confirmed that the continuum subtraction has succeeded.
 \newpage
 \subsection{Line identification}
 In order to find out where common signals exist, we drew integrated intensity maps 
-using CASA task {\sc immoment}. The integrated velocity range is 3.0-12.0 km s$^{-1}$, corresponding
+using CASA task {\sc immoment}. The integrated velocity range is 3.0-12.0 km s$^{-1}$, corresponding to
 typical velocity component of Hot core (4.8-6 km s$^{-1}$) and that of Compact ridge 
-(7.2-9.6 km s$^{-1}$) \citep{Feng+2015}.
-Spectroscopic data are provided by \citet{Motiyenko+2014} and 
+(7.2-9.6~km~s$^{-1}$) \citep{Feng+2015}.
+Spectroscopic data of CH$_3$NH$_2$ are provided by \citet{Motiyenko+2014} and 
 JPL Molecular Spectroscopy catalog\footnote{http://spec.jpl.nasa.gov}.
 
 Then, since emission at the center of Hot core were found in most of integrated intensity maps, 
@@ -142,9 +142,9 @@ Possible line blending ($E_{\mathrm{u}} < 500\, \mathrm{K}$) with CH$_{3}$NH$_{2
 the Cologne database for molecular spectroscopy (CDMS)\footnote{http://www.astro.uni-koeln.de/cdms/}, 
 and Splatalogue\footnote{http://www.splalogue.net/}. 
 
-Subsequently, we estimated the systemic velocity and the line width of 217.758 GHz line, 
+Subsequently, we estimated the systemic velocity and the line width of 217.758~GHz line, 
 reported by \citet{Pagani+2017}, which does not seem contaminated by other molecular lines.
-At last, using these value, we obtained the integrated intensity of 6 transitions described in 
+At last, using these value, we obtained the integrated intensity of 6~transitions described in 
 Table \ref{tab:MAOri} by the Gaussian fitting.
 
 
@@ -152,13 +152,13 @@ Table \ref{tab:MAOri} by the Gaussian fitting.
 \section{Results}
 %\subsection{Transitions}
 The data obtained for CH$_{3}$NH$_{2}$ are summarized in Table \ref{tab:MAOri}.
-Here the rest frequencies, $S\mu^2$, upper state energy ($E_{\mathrm{u}}$), the quantum numbers,
-noise level, and peak brightness temperature are given.
+Here the rest frequencies, $S\mu^2$, the upper state energy ($E_{\mathrm{u}}$), the quantum numbers,
+the peak brightness temperature, the systemic velocity (V$_{\mathrm{LSR}}$) , and noise level are given.
 Out of 32 predicted transitions ($S\mu^2 > 25\,\mathrm{D^2}$ and $E_{\mathrm{u}} < 200 \,\mathrm{K}$) 
 in our observational frequency range, 6 were probably identified in this data set, and are reported in
 Table \ref{tab:MAOri}. The remaining 18 CH$_{3}$NH$_{2}$ transitions are
 blended with or masked by other spectral features, or its signal are below the noise level 
-(See Appendix A). 
+(See Appendix~A). 
 
 \renewcommand{\arraystretch}{1.5}
 \begin{table}[htb]
@@ -191,7 +191,7 @@ In the integrated intensity map of 229.908 GHz line, emission come from the sout
 Since it can be confirmed that the velocity component is different in the channel map (see Figure \ref{ch_7}), 
 this is considered to be the emission of another molecular line.
 
-in addition, the extended emission in Hot core and the compact structure at Compact ridge are seen 
+In addition, the extended emission in Hot core and the compact structure at Compact ridge are seen 
 in the integrated intensity map of 242.262 GHz line. These are also considered to be emission from other molecule line 
 by the channel map (Figure \ref{ch_5}) and spectrum (Figure \ref{fig:spec}).
 
@@ -331,8 +331,11 @@ The rest frequency of each transition shows in the upper right part of each pane
   \label{ch_7}
 \end{figure}
 
+\newpage
 \subsection{Spectrum}
-スペクトルはHot core(RA$_{J2000}: 05^{\rm{h}}35^{\rm{m}}14^{\rm{s}}.580$, Dec$_{J2000}:-05^{\circ}22'31''.029$)を中心に直径1秒の領域から抽出し、ガウシアンフィットを行なった。
+The spectrum were extracted from the region of 1''.0 in diameter around 
+Hot core (RA$_{J2000}: 05^{\rm{h}}35^{\rm{m}}14^{\rm{s}}.580$, Dec$_{J2000}:-05^{\circ}22'31''.029$), 
+and the Gaussian fitting was performed to obtain the line width and Vlsr of the emission line.
 
 %%%%% スペクトル挿入 %%%%%
 \begin{figure}[H] 
