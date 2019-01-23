@@ -1,38 +1,37 @@
 \contentsline {chapter}{Abstract}{i}
 \contentsline {chapter}{\numberline {1}Introduction }{1}
 \contentsline {section}{\numberline {1.1}Glycine and methylamine}{1}
-\contentsline {section}{\numberline {1.2}Star forming region}{1}
-\contentsline {subsection}{\numberline {1.2.1}Orion Kleinmann-Low nebula}{1}
-\contentsline {subsection}{\numberline {1.2.2}IRAS 16293-2422}{1}
-\contentsline {subsection}{\numberline {1.2.3}L483}{1}
-\contentsline {section}{\numberline {1.3}Radio observation}{1}
-\contentsline {subsection}{\numberline {1.3.1}Atacama Large Millimeter Array}{1}
-\contentsline {section}{\numberline {1.4}Purpose of this work}{1}
-\contentsline {chapter}{\numberline {2}Methylamine survey in Orion-KL }{2}
-\contentsline {section}{\numberline {2.1}Observation data}{2}
-\contentsline {section}{\numberline {2.2}Analysis}{2}
-\contentsline {subsection}{\numberline {2.2.1}Continuum Subtraction of SV data}{2}
-\contentsline {subsection}{\numberline {2.2.2}Line identification}{2}
-\contentsline {section}{\numberline {2.3}Results}{3}
-\contentsline {subsection}{\numberline {2.3.1}Transitions}{3}
-\contentsline {subsection}{\numberline {2.3.2}Distribution}{3}
-\contentsline {subsection}{\numberline {2.3.3}Spectrum}{5}
-\contentsline {section}{\numberline {2.4}Disucssion}{5}
-\contentsline {subsection}{\numberline {2.4.1}Column density and Rotation temperature}{5}
-\contentsline {subsection}{\numberline {2.4.2}Blending}{5}
-\contentsline {chapter}{\numberline {3}Methylamine survey in low mass star-forming regions }{16}
-\contentsline {section}{\numberline {3.1}Review of low mass star-forming region}{16}
-\contentsline {section}{\numberline {3.2}Analysis}{16}
-\contentsline {section}{\numberline {3.3}IRAS 16293}{16}
-\contentsline {subsection}{\numberline {3.3.1}Observation data}{16}
-\contentsline {subsection}{\numberline {3.3.2}Results}{16}
-\contentsline {section}{\numberline {3.4}L483}{16}
-\contentsline {subsection}{\numberline {3.4.1}Observation data}{16}
-\contentsline {subsection}{\numberline {3.4.2}Results}{16}
-\contentsline {chapter}{\numberline {4}Discussion }{18}
-\contentsline {chapter}{\numberline {5}Conclusions }{19}
-\contentsline {chapter}{\numberline {A}Distribution of methylamine lines contaminated by other molecular line emission in Orion-KL }{20}
-\contentsline {section}{\numberline {A.1}Integrated intensity maps}{20}
-\contentsline {section}{\numberline {A.2}Channel maps}{24}
-\contentsline {chapter}{Acknowledgments}{40}
-\contentsline {chapter}{References}{41}
+\contentsline {section}{\numberline {1.2}Star forming region}{2}
+\contentsline {subsection}{\numberline {1.2.1}Orion Kleinmann-Low nebula}{2}
+\contentsline {subsection}{\numberline {1.2.2}IRAS 16293-2422}{2}
+\contentsline {subsection}{\numberline {1.2.3}L483}{2}
+\contentsline {section}{\numberline {1.3}Radio observation}{3}
+\contentsline {subsection}{\numberline {1.3.1}Atacama Large Millimeter Array}{4}
+\contentsline {section}{\numberline {1.4}Purpose of this work}{4}
+\contentsline {chapter}{\numberline {2}Methylamine survey in Orion-KL }{5}
+\contentsline {section}{\numberline {2.1}Observation data}{5}
+\contentsline {section}{\numberline {2.2}Analysis}{6}
+\contentsline {subsection}{\numberline {2.2.1}Reduction of SV data}{6}
+\contentsline {subsection}{\numberline {2.2.2}Line identification}{10}
+\contentsline {section}{\numberline {2.3}Results}{11}
+\contentsline {subsection}{\numberline {2.3.1}Overall CH$_3$NH$_2$ distribution}{11}
+\contentsline {subsection}{\numberline {2.3.2}Spectrum}{20}
+\contentsline {section}{\numberline {2.4}Disucssion}{22}
+\contentsline {subsection}{\numberline {2.4.1}Column density and Rotation temperature}{22}
+\contentsline {subsection}{\numberline {2.4.2}Undetectable lines}{23}
+\contentsline {chapter}{\numberline {3}Methylamine survey in low mass star-forming regions }{28}
+\contentsline {section}{\numberline {3.1}Review of low mass star-forming region}{29}
+\contentsline {section}{\numberline {3.2}Analysis}{29}
+\contentsline {section}{\numberline {3.3}IRAS 16293}{29}
+\contentsline {subsection}{\numberline {3.3.1}Observation data}{29}
+\contentsline {subsection}{\numberline {3.3.2}Results}{29}
+\contentsline {section}{\numberline {3.4}L483}{31}
+\contentsline {subsection}{\numberline {3.4.1}Observation data}{31}
+\contentsline {subsection}{\numberline {3.4.2}Results}{31}
+\contentsline {chapter}{\numberline {4}Discussion }{33}
+\contentsline {chapter}{\numberline {5}Conclusions }{34}
+\contentsline {chapter}{\numberline {A}Distribution of methylamine lines contaminated by other molecular line emission in Orion-KL }{35}
+\contentsline {section}{\numberline {A.1}Integrated intensity maps}{35}
+\contentsline {section}{\numberline {A.2}Channel maps}{39}
+\contentsline {chapter}{Acknowledgments}{55}
+\contentsline {chapter}{References}{56}
