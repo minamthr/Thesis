@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.7-160201-2.6 (utf8.euc) (TeX Live 2016) (preloaded format=platex 2017.5.9)  23 JAN 2019 14:04
+This is e-pTeX, Version 3.14159265-p3.7-160201-2.6 (utf8.euc) (TeX Live 2016) (preloaded format=platex 2017.5.9)  24 JAN 2019 19:12
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -350,8 +350,12 @@ File: OrionKL/chmap/244.887.eps Graphic file (type eps)
 File: OrionKL/chmap/229.908.eps Graphic file (type eps)
 
 <OrionKL/chmap/229.908.eps> [18] [19]
-File: OrionKL/spectrum/HC/217.758328w_fit.eps Graphic file (type eps)
+Underfull \hbox (badness 6300) in paragraph at lines 343--349
+[]\OT1/ptm/m/n/12 The av-er-age LSR ve-loc-ity and FWHM line width are es-ti-ma
+ted to be
+ []
 
+File: OrionKL/spectrum/HC/217.758328w_fit.eps Graphic file (type eps)
 <OrionKL/spectrum/HC/217.758328w_fit.eps>
 File: OrionKL/spectrum/HC/245.2021362w_fit.eps Graphic file (type eps)
 
@@ -371,34 +375,34 @@ File: OrionKL/spectrum/HC/244.8869007w_fit.eps Graphic file (type eps)
 File: OrionKL/RD_6point_label.eps Graphic file (type eps)
 
 <OrionKL/RD_6point_label.eps> [22]
-Overfull \hbox (19.32133pt too wide) in paragraph at lines 468--475
+Overfull \hbox (19.32133pt too wide) in paragraph at lines 499--506
  [][][] 
  []
 
-File: OrionKL/RD_7point_label.eps Graphic file (type eps)
-<OrionKL/RD_7point_label.eps> [23]
-File: OrionKL/spectrum/HC/215.6696452w_fit.eps Graphic file (type eps)
- <OrionKL/spectrum/HC/215.6696452w_fit.eps>
+File: OrionKL/RD_blend.eps Graphic file (type eps)
+<OrionKL/RD_blend.eps> [23]
 File: OrionKL/mom0/215.67mom0_3-7.eps Graphic file (type eps)
+ <OrionKL/mom0/215.67mom0_3-7.eps>
+File: OrionKL/spectrum/HC/215.6696452w_fit.eps Graphic file (type eps)
 
-<OrionKL/mom0/215.67mom0_3-7.eps>
-File: OrionKL/chmap/215.67.eps Graphic file (type eps)
- <OrionKL/chmap/215.67.eps> [24]
+<OrionKL/spectrum/HC/215.6696452w_fit.eps> [24]
+File: OrionKL/mom0/221.755SV_mom0_3-7.eps Graphic file (type eps)
+
+<OrionKL/mom0/221.755SV_mom0_3-7.eps>
 File: OrionKL/spectrum/HC/221.755055w_fit.eps Graphic file (type eps)
 
 <OrionKL/spectrum/HC/221.755055w_fit.eps>
-File: OrionKL/mom0/221.755SV_mom0_3-7.eps Graphic file (type eps)
-
-<OrionKL/mom0/221.755SV_mom0_3-7.eps> [25]
+File: OrionKL/chmap/215.67.eps Graphic file (type eps)
+ <OrionKL/chmap/215.67.eps>
 File: OrionKL/chmap/221.755.eps Graphic file (type eps)
- <OrionKL/chmap/221.755.eps>)
-[26] [27]
+
+<OrionKL/chmap/221.755.eps>) [25] [26] [27] [28]
 \openout2 = `chap3_LMSFRs.aux'.
 
  (./chap3_LMSFRs.tex
 Chapter 3.
 File: LMSFR/IRAS16293_mom0.eps Graphic file (type eps)
-<LMSFR/IRAS16293_mom0.eps> [28
+<LMSFR/IRAS16293_mom0.eps> [29
 
 
 
@@ -406,19 +410,19 @@ File: LMSFR/IRAS16293_mom0.eps Graphic file (type eps)
 Overfull \vbox (169.29012pt too high) has occurred while \output is active []
 
 
-[29]
+[30]
 File: LMSFR/IRAS16293.eps Graphic file (type eps)
  <LMSFR/IRAS16293.eps>
 File: LMSFR/L483_mom0.eps Graphic file (type eps)
- <LMSFR/L483_mom0.eps> [30]
+ <LMSFR/L483_mom0.eps> [31]
 File: LMSFR/L483.eps Graphic file (type eps)
- <LMSFR/L483.eps> [31])
-[32]
+ <LMSFR/L483.eps> [32])
+[33]
 \openout2 = `chap4_discussion.aux'.
 
  (./chap4_discussion.tex
 Chapter 4.
-) [33
+) [34
 
 
 
@@ -427,7 +431,7 @@ Chapter 4.
 
  (./chap5_conclusions.tex
 Chapter 5.
-) [34
+) [35
 
 
 
@@ -445,11 +449,11 @@ File: OrionKL/mom0/231.844SV_mom0_3-7.eps Graphic file (type eps)
 <OrionKL/mom0/231.844SV_mom0_3-7.eps>
 File: OrionKL/mom0/242.625SV_mom0_3-7.eps Graphic file (type eps)
  <OrionKL/mom0/242.625SV_mom0_3-7.eps>
-[35
+[36
 
 
 
-] [36]
+] [37]
 File: OrionKL/mom0/231.524mom0_3-7.eps Graphic file (type eps)
  <OrionKL/mom0/231.524mom0_3-7.eps>
 File: OrionKL/mom0/218.221mom0_3-7.eps Graphic file (type eps)
@@ -464,7 +468,7 @@ File: OrionKL/mom0/231.061mom0_3-7.eps Graphic file (type eps)
  <OrionKL/mom0/231.061mom0_3-7.eps>
 File: OrionKL/mom0/233.802mom0_3-7.eps Graphic file (type eps)
 
-<OrionKL/mom0/233.802mom0_3-7.eps> [37]
+<OrionKL/mom0/233.802mom0_3-7.eps> [38]
 File: OrionKL/mom0/231.576mom0_3-7.eps Graphic file (type eps)
  <OrionKL/mom0/231.576mom0_3-7.eps>
 File: OrionKL/mom0/216.843mom0_3-7.eps Graphic file (type eps)
@@ -479,7 +483,7 @@ File: OrionKL/mom0/217.67mom0_3-7.eps Graphic file (type eps)
  <OrionKL/mom0/217.67mom0_3-7.eps>
 File: OrionKL/mom0/237.144mom0_3-7.eps Graphic file (type eps)
 
-<OrionKL/mom0/237.144mom0_3-7.eps> [38]
+<OrionKL/mom0/237.144mom0_3-7.eps> [39]
 File: OrionKL/chmap/222.846.eps Graphic file (type eps)
  <OrionKL/chmap/222.846.eps>
 File: OrionKL/chmap/227.545.eps Graphic file (type eps)
@@ -519,39 +523,36 @@ File: OrionKL/chmap/217.67.eps Graphic file (type eps)
  <OrionKL/chmap/217.67.eps>
 File: OrionKL/chmap/237.144.eps Graphic file (type eps)
 
-<OrionKL/chmap/237.144.eps>) [39] [40] [41] [42] [43] [44] [45] [46] [47]
-[48] [49] [50] [51] [52] [53] [54]
+<OrionKL/chmap/237.144.eps>) [40] [41] [42] [43] [44] [45] [46] [47] [48]
+[49] [50] [51] [52] [53] [54] [55]
 \openout2 = `acknowledgments.aux'.
 
- (./acknowledgments.tex) [55
+ (./acknowledgments.tex) [56
 
 
 
 ]
 \openout2 = `chap_bib.aux'.
 
- (./chap_bib.tex (./master.bbl [56
+ (./chap_bib.tex (./master.bbl [57
 
 
 
-])) [57] (./master.aux (./abstract.aux)
+])) [58] (./master.aux (./abstract.aux)
 (./tableofcontents.aux) (./chap1_introduction.aux) (./chap2_OrionKL.aux)
 (./chap3_LMSFRs.aux) (./chap4_discussion.aux) (./chap5_conclusions.aux)
 (./app_appendix.aux) (./acknowledgments.aux) (./chap_bib.aux))
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
- 2691 strings out of 493693
- 34922 string characters out of 6149788
- 99113 words of memory out of 5000000
- 6071 multiletter control sequences out of 15000+600000
+ 2695 strings out of 493693
+ 34957 string characters out of 6149788
+ 99163 words of memory out of 5000000
+ 6075 multiletter control sequences out of 15000+600000
  27834 words of font info for 98 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
- 27i,11n,31p,1249b,506s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 27i,11n,31p,1249b,508s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on master.dvi (63 pages, 53996 bytes).
+Output written on master.dvi (64 pages, 58364 bytes).
