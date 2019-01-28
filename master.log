@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.7-160201-2.6 (utf8.euc) (TeX Live 2016) (preloaded format=platex 2017.5.9)  24 JAN 2019 19:12
+This is e-pTeX, Version 3.14159265-p3.7-160201-2.6 (utf8.euc) (TeX Live 2016) (preloaded format=platex 2017.5.9)  29 JAN 2019 04:41
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -166,8 +166,12 @@ Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 \Gin@req@width=\dimen131
 )
 (./jnl_list.tex) (./master.aux (./abstract.aux) (./tableofcontents.aux)
-(./chap1_introduction.aux) (./chap2_OrionKL.aux) (./chap3_LMSFRs.aux)
-(./chap4_discussion.aux) (./chap5_conclusions.aux) (./app_appendix.aux)
+(./chap1_introduction.aux) (./chap2_data.aux) (./chap3_results.aux)
+(./chap4_discussion.aux
+
+LaTeX Warning: Label `ch_4' multiply defined.
+
+) (./chap5_conclusions.aux) (./app_appendixA.aux) (./app_appendixB.aux)
 (./acknowledgments.aux) (./chap_bib.aux))
 \openout1 = `master.aux'.
 
@@ -271,55 +275,68 @@ Chapter 1.
 [1
 
 
-] [2]
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 66.
+] [2] [3] [4]
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 110.
+
  (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/omsptm.fd
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 66.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 110.
+[5]
+File: ALMA.eps Graphic file (type eps)
+ <ALMA.eps>
+Underfull \hbox (badness 1845) in paragraph at lines 145--145
+[]\OT1/ptm/m/n/12 Figure 1.1: At-a-cama Large Mil-lime-ter/submillimeter Ar-ray
+. Credit by ALMA
+ []
 
-[3]) [4]
-\openout2 = `chap2_OrionKL.aux'.
+[6] [7]) [8]
+\openout2 = `chap2_data.aux'.
 
- (./chap2_OrionKL.tex
+ (./chap2_data.tex
 Chapter 2.
 
-Underfull \hbox (badness 10000) in paragraph at lines 7--42
+Underfull \hbox (badness 10000) in paragraph at lines 4--39
 \OT1/ptm/m/n/12 We an-a-lyzed 2 ALMA archival data. First we used Cy-cle 2 data
 
  []
 
 
-Underfull \hbox (badness 2512) in paragraph at lines 7--42
+Underfull \hbox (badness 2512) in paragraph at lines 4--39
 \OT1/ptm/m/n/12 (ADS/JAO.ALMA#2013.1.00553.S, Pa-gani et al. (2017)) We also em
 -ployed the
  []
 
-[5
+[9
 
 
 
-] [6]
+] [10]
 File: OrionKL/ex_histogram_fit.eps Graphic file (type eps)
- <OrionKL/ex_histogram_fit.eps> [7]
+ <OrionKL/ex_histogram_fit.eps> [11]
 
 LaTeX Font Warning: Font shape `JT1/mc/m/sc' undefined
-(Font)              using `JT1/mc/m/n' instead on input line 113.
+(Font)              using `JT1/mc/m/n' instead on input line 95.
 
 
 LaTeX Font Warning: Font shape `JY1/mc/m/sc' undefined
-(Font)              using `JY1/mc/m/n' instead on input line 113.
+(Font)              using `JY1/mc/m/n' instead on input line 95.
 
 File: OrionKL/spec_spw2.eps Graphic file (type eps)
 <OrionKL/spec_spw2.eps>
 File: OrionKL/spec_spw13.eps Graphic file (type eps)
- <OrionKL/spec_spw13.eps> [8] [9] [10]
-Overfull \hbox (47.97115pt too wide) in paragraph at lines 170--182
- [][][] 
- []
+ <OrionKL/spec_spw13.eps> [12] [13]) [14]
+\openout2 = `chap3_results.aux'.
 
-[11] [12]
+
+(./chap3_results.tex
+Chapter 3.
+[15
+
+
+
+] [16]
 File: OrionKL/mom0/217.758mom0_3-7.eps Graphic file (type eps)
  <OrionKL/mom0/217.758mom0_3-7.eps>
 File: OrionKL/mom0/245.202mom0_3-7.eps Graphic file (type eps)
@@ -336,21 +353,21 @@ File: OrionKL/mom0/244.887mom0_3-7.eps Graphic file (type eps)
 
 <OrionKL/mom0/244.887mom0_3-7.eps>
 File: OrionKL/chmap/217.758.eps Graphic file (type eps)
- <OrionKL/chmap/217.758.eps> [13]
+ <OrionKL/chmap/217.758.eps> [17]
 File: OrionKL/chmap/245.202.eps Graphic file (type eps)
 
-<OrionKL/chmap/245.202.eps> [14]
+<OrionKL/chmap/245.202.eps> [18]
 File: OrionKL/chmap/235.735.eps Graphic file (type eps)
- <OrionKL/chmap/235.735.eps> [15]
-File: OrionKL/chmap/242.262.eps Graphic file (type eps)
-
-<OrionKL/chmap/242.262.eps> [16]
-File: OrionKL/chmap/244.887.eps Graphic file (type eps)
- <OrionKL/chmap/244.887.eps> [17]
+ <OrionKL/chmap/235.735.eps> [19]
 File: OrionKL/chmap/229.908.eps Graphic file (type eps)
 
-<OrionKL/chmap/229.908.eps> [18] [19]
-Underfull \hbox (badness 6300) in paragraph at lines 343--349
+<OrionKL/chmap/229.908.eps> [20]
+File: OrionKL/chmap/242.262.eps Graphic file (type eps)
+ <OrionKL/chmap/242.262.eps> [21]
+File: OrionKL/chmap/244.887.eps Graphic file (type eps)
+
+<OrionKL/chmap/244.887.eps> [22] [23]
+Underfull \hbox (badness 6300) in paragraph at lines 198--205
 []\OT1/ptm/m/n/12 The av-er-age LSR ve-loc-ity and FWHM line width are es-ti-ma
 ted to be
  []
@@ -371,21 +388,29 @@ File: OrionKL/spectrum/HC/242.2620195w_fit.eps Graphic file (type eps)
 <OrionKL/spectrum/HC/242.2620195w_fit.eps>
 File: OrionKL/spectrum/HC/244.8869007w_fit.eps Graphic file (type eps)
 
-<OrionKL/spectrum/HC/244.8869007w_fit.eps> [20] [21]
-File: OrionKL/RD_6point_label.eps Graphic file (type eps)
+<OrionKL/spectrum/HC/244.8869007w_fit.eps>) [24] [25]
+\openout2 = `chap4_discussion.aux'.
 
-<OrionKL/RD_6point_label.eps> [22]
-Overfull \hbox (19.32133pt too wide) in paragraph at lines 499--506
+ (./chap4_discussion.tex
+Chapter 4.
+[26
+
+
+
+]
+File: OrionKL/RD_6point_label.eps Graphic file (type eps)
+ <OrionKL/RD_6point_label.eps>
+Overfull \hbox (19.32133pt too wide) in paragraph at lines 49--56
  [][][] 
  []
 
 File: OrionKL/RD_blend.eps Graphic file (type eps)
-<OrionKL/RD_blend.eps> [23]
+<OrionKL/RD_blend.eps> [27] [28]
 File: OrionKL/mom0/215.67mom0_3-7.eps Graphic file (type eps)
  <OrionKL/mom0/215.67mom0_3-7.eps>
 File: OrionKL/spectrum/HC/215.6696452w_fit.eps Graphic file (type eps)
 
-<OrionKL/spectrum/HC/215.6696452w_fit.eps> [24]
+<OrionKL/spectrum/HC/215.6696452w_fit.eps>
 File: OrionKL/mom0/221.755SV_mom0_3-7.eps Graphic file (type eps)
 
 <OrionKL/mom0/221.755SV_mom0_3-7.eps>
@@ -396,69 +421,61 @@ File: OrionKL/chmap/215.67.eps Graphic file (type eps)
  <OrionKL/chmap/215.67.eps>
 File: OrionKL/chmap/221.755.eps Graphic file (type eps)
 
-<OrionKL/chmap/221.755.eps>) [25] [26] [27] [28]
-\openout2 = `chap3_LMSFRs.aux'.
-
- (./chap3_LMSFRs.tex
-Chapter 3.
-File: LMSFR/IRAS16293_mom0.eps Graphic file (type eps)
-<LMSFR/IRAS16293_mom0.eps> [29
-
-
-
-]
-Overfull \vbox (169.29012pt too high) has occurred while \output is active []
-
-
-[30]
-File: LMSFR/IRAS16293.eps Graphic file (type eps)
- <LMSFR/IRAS16293.eps>
-File: LMSFR/L483_mom0.eps Graphic file (type eps)
- <LMSFR/L483_mom0.eps> [31]
-File: LMSFR/L483.eps Graphic file (type eps)
- <LMSFR/L483.eps> [32])
-[33]
-\openout2 = `chap4_discussion.aux'.
-
- (./chap4_discussion.tex
-Chapter 4.
-) [34
-
-
-
-]
+<OrionKL/chmap/221.755.eps>) [29] [30] [31] [32]
 \openout2 = `chap5_conclusions.aux'.
 
  (./chap5_conclusions.tex
 Chapter 5.
-) [35
+) [33
 
 
 
 ]
-\openout2 = `app_appendix.aux'.
+\openout2 = `app_appendixA.aux'.
 
- (./app_appendix.tex
+ (./app_appendixA.tex
 Appendix A.
+File: LMSFR/IRAS16293_mom0.eps Graphic file (type eps)
+<LMSFR/IRAS16293_mom0.eps> [34
+
+
+
+]
+Overfull \vbox (71.63017pt too high) has occurred while \output is active []
+
+
+[35]
+File: LMSFR/IRAS16293.eps Graphic file (type eps)
+ <LMSFR/IRAS16293.eps>
+File: LMSFR/L483_mom0.eps Graphic file (type eps)
+ <LMSFR/L483_mom0.eps> [36]
+File: LMSFR/L483.eps Graphic file (type eps)
+ <LMSFR/L483.eps> [37])
+[38]
+\openout2 = `app_appendixB.aux'.
+
+ (./app_appendixB.tex
+Appendix B.
+[39
+
+
+
+] [40]
 File: OrionKL/mom0/222.846SV_mom0_3-7.eps Graphic file (type eps)
-<OrionKL/mom0/222.846SV_mom0_3-7.eps>
+ <OrionKL/mom0/222.846SV_mom0_3-7.eps>
 File: OrionKL/mom0/227.545SV_mom0_3-7.eps Graphic file (type eps)
- <OrionKL/mom0/227.545SV_mom0_3-7.eps>
+
+<OrionKL/mom0/227.545SV_mom0_3-7.eps>
 File: OrionKL/mom0/231.844SV_mom0_3-7.eps Graphic file (type eps)
-
-<OrionKL/mom0/231.844SV_mom0_3-7.eps>
+ <OrionKL/mom0/231.844SV_mom0_3-7.eps>
 File: OrionKL/mom0/242.625SV_mom0_3-7.eps Graphic file (type eps)
- <OrionKL/mom0/242.625SV_mom0_3-7.eps>
-[36
 
-
-
-] [37]
+<OrionKL/mom0/242.625SV_mom0_3-7.eps>
 File: OrionKL/mom0/231.524mom0_3-7.eps Graphic file (type eps)
  <OrionKL/mom0/231.524mom0_3-7.eps>
 File: OrionKL/mom0/218.221mom0_3-7.eps Graphic file (type eps)
 
-<OrionKL/mom0/218.221mom0_3-7.eps>
+<OrionKL/mom0/218.221mom0_3-7.eps> [41]
 File: OrionKL/mom0/219.151mom0_3-7.eps Graphic file (type eps)
  <OrionKL/mom0/219.151mom0_3-7.eps>
 File: OrionKL/mom0/227.997SV_mom0_3-7.eps Graphic file (type eps)
@@ -468,7 +485,7 @@ File: OrionKL/mom0/231.061mom0_3-7.eps Graphic file (type eps)
  <OrionKL/mom0/231.061mom0_3-7.eps>
 File: OrionKL/mom0/233.802mom0_3-7.eps Graphic file (type eps)
 
-<OrionKL/mom0/233.802mom0_3-7.eps> [38]
+<OrionKL/mom0/233.802mom0_3-7.eps>
 File: OrionKL/mom0/231.576mom0_3-7.eps Graphic file (type eps)
  <OrionKL/mom0/231.576mom0_3-7.eps>
 File: OrionKL/mom0/216.843mom0_3-7.eps Graphic file (type eps)
@@ -483,7 +500,7 @@ File: OrionKL/mom0/217.67mom0_3-7.eps Graphic file (type eps)
  <OrionKL/mom0/217.67mom0_3-7.eps>
 File: OrionKL/mom0/237.144mom0_3-7.eps Graphic file (type eps)
 
-<OrionKL/mom0/237.144mom0_3-7.eps> [39]
+<OrionKL/mom0/237.144mom0_3-7.eps> [42] [43]
 File: OrionKL/chmap/222.846.eps Graphic file (type eps)
  <OrionKL/chmap/222.846.eps>
 File: OrionKL/chmap/227.545.eps Graphic file (type eps)
@@ -523,36 +540,40 @@ File: OrionKL/chmap/217.67.eps Graphic file (type eps)
  <OrionKL/chmap/217.67.eps>
 File: OrionKL/chmap/237.144.eps Graphic file (type eps)
 
-<OrionKL/chmap/237.144.eps>) [40] [41] [42] [43] [44] [45] [46] [47] [48]
-[49] [50] [51] [52] [53] [54] [55]
+<OrionKL/chmap/237.144.eps>) [44] [45] [46] [47] [48] [49] [50] [51] [52]
+[53] [54] [55] [56] [57] [58] [59]
 \openout2 = `acknowledgments.aux'.
 
- (./acknowledgments.tex) [56
+ (./acknowledgments.tex) [60
 
 
 
 ]
 \openout2 = `chap_bib.aux'.
 
- (./chap_bib.tex (./master.bbl [57
+ (./chap_bib.tex (./master.bbl [61
 
 
 
-])) [58] (./master.aux (./abstract.aux)
-(./tableofcontents.aux) (./chap1_introduction.aux) (./chap2_OrionKL.aux)
-(./chap3_LMSFRs.aux) (./chap4_discussion.aux) (./chap5_conclusions.aux)
-(./app_appendix.aux) (./acknowledgments.aux) (./chap_bib.aux))
+] [62] [63])) [64] (./master.aux (./abstract.aux)
+(./tableofcontents.aux) (./chap1_introduction.aux) (./chap2_data.aux)
+(./chap3_results.aux) (./chap4_discussion.aux) (./chap5_conclusions.aux)
+(./app_appendixA.aux) (./app_appendixB.aux) (./acknowledgments.aux)
+(./chap_bib.aux))
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
+
+LaTeX Warning: There were multiply-defined labels.
+
  ) 
 Here is how much of TeX's memory you used:
- 2695 strings out of 493693
- 34957 string characters out of 6149788
- 99163 words of memory out of 5000000
- 6075 multiletter control sequences out of 15000+600000
- 27834 words of font info for 98 fonts, out of 8000000 for 9000
+ 2739 strings out of 493693
+ 35554 string characters out of 6149788
+ 100475 words of memory out of 5000000
+ 6110 multiletter control sequences out of 15000+600000
+ 29380 words of font info for 104 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
- 27i,11n,31p,1249b,508s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 27i,11n,31p,505b,506s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on master.dvi (64 pages, 58364 bytes).
+Output written on master.dvi (70 pages, 75348 bytes).

@@ -1,5 +1,9 @@
-\begin{thebibliography}{18}
+\begin{thebibliography}{37}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+
+\bibitem[{{Ag{\'u}ndez} {et~al.}(2018){Ag{\'u}ndez}, {Marcelino}, \&
+  {Cernicharo}}]{Agndez+2018}
+{Ag{\'u}ndez}, M., {Marcelino}, N., \& {Cernicharo}, J. 2018, \apjl, 861, L22
 
 \bibitem[{{Altwegg} {et~al.}(2016){Altwegg}, {Balsiger}, {Bar-Nun},
   {Berthelier}, {Bieler}, {Bochsler}, {Briois}, {Calmonte}, {Combi}, {Cottin},
@@ -14,15 +18,44 @@
   {Wright}}]{Altwegg+2017}
 ---. 2017, \mnras, 469, S130
 
+\bibitem[{{Blake} {et~al.}(1994){Blake}, {van Dishoeck}, {Jansen}, {Groesbeck},
+  \& {Mundy}}]{Blake+1994}
+{Blake}, G.~A., {van Dishoeck}, E.~F., {Jansen}, D.~J., {Groesbeck}, T.~D., \&
+  {Mundy}, L.~G. 1994, \apj, 428, 680
+
 \bibitem[{{Bossa} {et~al.}(2009){Bossa}, {Duvernay}, {Theul{\'e}}, {Borget},
   {D'Hendecourt}, \& {Chiavassa}}]{Bossa+2009}
 {Bossa}, J.-B., {Duvernay}, F., {Theul{\'e}}, P., {Borget}, F., {D'Hendecourt},
   L., \& {Chiavassa}, T. 2009, \aap, 506, 601
 
+\bibitem[{{Cazaux} {et~al.}(2003){Cazaux}, {Tielens}, {Ceccarelli}, {Castets},
+  {Wakelam}, {Caux}, {Parise}, \& {Teyssier}}]{Cazaux+2003}
+{Cazaux}, S., {Tielens}, A.~G.~G.~M., {Ceccarelli}, C., {Castets}, A.,
+  {Wakelam}, V., {Caux}, E., {Parise}, B., \& {Teyssier}, D. 2003, \apjl, 593,
+  L51
+
+\bibitem[{{Chapman} {et~al.}(2013){Chapman}, {Davidson}, {Goldsmith}, {Houde},
+  {Kwon}, {Li}, {Looney}, {Matthews}, {Matthews}, {Novak}, {Peng},
+  {Vaillancourt}, \& {Volgenau}}]{Chapman+2013}
+{Chapman}, N.~L., {et~al.} 2013, \apj, 770, 151
+
 \bibitem[{{Ehrenfreund} {et~al.}(2001){Ehrenfreund}, {Bernstein}, {Dworkin},
   {Sandford}, \& {Allamandola}}]{Ehrenfreund+2001}
 {Ehrenfreund}, P., {Bernstein}, M.~P., {Dworkin}, J.~P., {Sandford}, S.~A., \&
   {Allamandola}, L.~J. 2001, \apjl, 550, L95
+
+\bibitem[{{Elsila} {et~al.}(2009){Elsila}, {Glavin}, \&
+  {Dworkin}}]{Elsila+2009}
+{Elsila}, J.~E., {Glavin}, D.~P., \& {Dworkin}, J.~P. 2009, Meteoritics and
+  Planetary Science, 44, 1323
+
+\bibitem[{{Engel} \& {Nagy}(1982)}]{Engel+Nagy1982}
+{Engel}, M.~H., \& {Nagy}, B. 1982, \nat, 296, 837
+
+\bibitem[{{Favre} {et~al.}(2011){Favre}, {Despois}, {Brouillet}, {Baudry},
+  {Combes}, {Gu{\'e}lin}, {Wootten}, \& {Wlodarczak}}]{Favre+2011a}
+{Favre}, C., {Despois}, D., {Brouillet}, N., {Baudry}, A., {Combes}, F.,
+  {Gu{\'e}lin}, M., {Wootten}, A., \& {Wlodarczak}, G. 2011, \aap, 532, A32
 
 \bibitem[{{Feng} {et~al.}(2015){Feng}, {Beuther}, {Henning}, {Semenov},
   {Palau}, \& {Mills}}]{Feng+2015}
@@ -33,6 +66,11 @@
   {Morimoto}}]{Fourikis+1974}
 {Fourikis}, N., {Takagi}, K., \& {Morimoto}, M. 1974, \apjl, 191, L139
 
+\bibitem[{{Fuller} {et~al.}(1995){Fuller}, {Lada}, {Masson}, \&
+  {Myers}}]{Fuller+1995}
+{Fuller}, G.~A., {Lada}, E.~A., {Masson}, C.~R., \& {Myers}, P.~C. 1995, \apj,
+  453, 754
+
 \bibitem[{{Glavin} {et~al.}(2008){Glavin}, {Dworkin}, \&
   {Sandford}}]{Glavin+2008}
 {Glavin}, D.~P., {Dworkin}, J.~P., \& {Sandford}, S.~A. 2008, Meteoritics and
@@ -42,6 +80,10 @@
   {Menten}, {Walmsley}, {Wyrowski}, {Mao}, \& {Klein}}]{Gong+2015}
 {Gong}, Y., {et~al.} 2015, \aap, 581, A48
 
+\bibitem[{{Halfen} {et~al.}(2013){Halfen}, {Ilyushin}, \&
+  {Ziurys}}]{Halfen+2013}
+{Halfen}, D.~T., {Ilyushin}, V.~V., \& {Ziurys}, L.~M. 2013, \apj, 767, 66
+
 \bibitem[{{Hirota} {et~al.}(2015){Hirota}, {Kim}, {Kurono}, \&
   {Honma}}]{Hirota+2015}
 {Hirota}, T., {Kim}, M.~K., {Kurono}, Y., \& {Honma}, M. 2015, \apj, 801, 82
@@ -50,6 +92,22 @@
   {Kaiser}}]{Holtom+2005}
 {Holtom}, P.~D., {Bennett}, C.~J., {Osamura}, Y., {Mason}, N.~J., \& {Kaiser},
   R.~I. 2005, \apj, 626, 940
+
+\bibitem[{{Jones} {et~al.}(2007){Jones}, {Cunningham}, {Godfrey}, \&
+  {Cragg}}]{Jones+2007}
+{Jones}, P.~A., {Cunningham}, M.~R., {Godfrey}, P.~D., \& {Cragg}, D.~M. 2007,
+  \mnras, 374, 579
+
+\bibitem[{{J{\o}rgensen} {et~al.}(2002){J{\o}rgensen}, {Sch{\"o}ier}, \& {van
+  Dishoeck}}]{Jorgensen+2002}
+{J{\o}rgensen}, J.~K., {Sch{\"o}ier}, F.~L., \& {van Dishoeck}, E.~F. 2002,
+  \aap, 389, 908
+
+\bibitem[{{J{\o}rgensen} {et~al.}(2016){J{\o}rgensen}, {van der Wiel},
+  {Coutens}, {Lykke}, {M{\"u}ller}, {van Dishoeck}, {Calcutt}, {Bjerkeli},
+  {Bourke}, {Drozdovskaya}, {Favre}, {Fayolle}, {Garrod}, {Jacobsen},
+  {{\"O}berg}, {Persson}, \& {Wampfler}}]{Jorgensen+2016}
+{J{\o}rgensen}, J.~K., {et~al.} 2016, \aap, 595, A117
 
 \bibitem[{{Kaifu} {et~al.}(1974){Kaifu}, {Morimoto}, {Nagane}, {Akabane},
   {Iguchi}, \& {Takagi}}]{Kaifu+1974}
@@ -62,10 +120,25 @@
   {Tobin}}]{Kounkel+2017}
 {Kounkel}, M., {et~al.} 2017, \apj, 834, 142
 
+\bibitem[{{Kuan} {et~al.}(2003){Kuan}, {Charnley}, {Huang}, {Tseng}, \&
+  {Kisiel}}]{Kuan+2003}
+{Kuan}, Y.-J., {Charnley}, S.~B., {Huang}, H.-C., {Tseng}, W.-L., \& {Kisiel},
+  Z. 2003, \apj, 593, 848
+
 \bibitem[{{Lee} {et~al.}(2009){Lee}, {Kim}, {Moon}, {Minh}, \&
   {Kang}}]{Lee+2009}
 {Lee}, C.-W., {Kim}, J.-K., {Moon}, E.-S., {Minh}, Y.~C., \& {Kang}, H. 2009,
   \apj, 697, 428
+
+\bibitem[{{Loinard} {et~al.}(2008){Loinard}, {Torres}, {Mioduszewski}, \&
+  {Rodr{\'{\i}}guez}}]{Loinard+2008}
+{Loinard}, L., {Torres}, R.~M., {Mioduszewski}, A.~J., \& {Rodr{\'{\i}}guez},
+  L.~F. 2008, \apjl, 675, L29
+
+\bibitem[{{Marcelino} {et~al.}(2018){Marcelino}, {Ag{\'u}ndez}, {Cernicharo},
+  {Roueff}, \& {Tafalla}}]{Marcelino+2018}
+{Marcelino}, N., {Ag{\'u}ndez}, M., {Cernicharo}, J., {Roueff}, E., \&
+  {Tafalla}, M. 2018, \aap, 612, L10
 
 \bibitem[{{McMullin} {et~al.}(2007){McMullin}, {Waters}, {Schiebel}, {Young},
   \& {Golap}}]{McMullin+2007}
@@ -79,10 +152,18 @@
 {Motiyenko}, R.~A., {Ilyushin}, V.~V., {Drouin}, B.~J., {Yu}, S., \&
   {Margul{\`e}s}, L. 2014, \aap, 563, A137
 
+\bibitem[{{Oya} {et~al.}(2018){Oya}, {Sakai}, {Watanabe}, {L{\'o}pez-Sepulcre},
+  {Ceccarelli}, {Lefloch}, \& {Yamamoto}}]{Oya+2018b}
+{Oya}, Y., {Sakai}, N., {Watanabe}, Y., {L{\'o}pez-Sepulcre}, A., {Ceccarelli},
+  C., {Lefloch}, B., \& {Yamamoto}, S. 2018, \apj, 863, 72
+
 \bibitem[{{Pagani} {et~al.}(2017){Pagani}, {Favre}, {Goldsmith}, {Bergin},
   {Snell}, \& {Melnick}}]{Pagani+2017}
 {Pagani}, L., {Favre}, C., {Goldsmith}, P.~F., {Bergin}, E.~A., {Snell}, R., \&
   {Melnick}, G. 2017, \aap, 604, A32
+
+\bibitem[{{Rice} {et~al.}(2006){Rice}, {Prato}, \& {McLean}}]{Rice+2006}
+{Rice}, E.~L., {Prato}, L., \& {McLean}, I.~S. 2006, \apj, 647, 432
 
 \bibitem[{{Sanchez-Monge} {et~al.}(2017){Sanchez-Monge}, {Schilke}, {Ginsburg},
   {Cesaroni}, \& {Schmiedeke}}]{Sanchez-Monge+2017}
@@ -92,5 +173,14 @@
 
 \bibitem[{{Turner}(1991)}]{Turner1991}
 {Turner}, B.~E. 1991, \apjs, 76, 617
+
+\bibitem[{{van Dishoeck} {et~al.}(1995){van Dishoeck}, {Blake}, {Jansen}, \&
+  {Groesbeck}}]{vanDishoeck+1995}
+{van Dishoeck}, E.~F., {Blake}, G.~A., {Jansen}, D.~J., \& {Groesbeck}, T.~D.
+  1995, \apj, 447, 760
+
+\bibitem[{{Zapata} {et~al.}(2011){Zapata}, {Schmid-Burgk}, \&
+  {Menten}}]{Zapata+2011}
+{Zapata}, L.~A., {Schmid-Burgk}, J., \& {Menten}, K.~M. 2011, \aap, 529, A24
 
 \end{thebibliography}
