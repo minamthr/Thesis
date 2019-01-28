@@ -3,13 +3,13 @@
 
 %\subsection{Transitions}
 The data obtained for CH$_{3}$NH$_{2}$ are summarized in Table \ref{tab:MAOri}.
-Here the rest frequencies, $S\mu^2$, the upper state energy ($E_{\mathrm{u}}$), the quantum numbers,
+Here the rest frequencies, product of the line strength and the dipole moment ($S\mu^2$), the upper state energy ($E_{\mathrm{u}}$), the quantum numbers,
 the peak brightness temperature, the systemic velocity (V$_{\mathrm{LSR}}$) , and noise level are listed.
-Out of 32 predicted transitions ($S\mu^2 > 25\,\mathrm{D^2}$ and $E_{\mathrm{u}} < 200 \,\mathrm{K}$) 
-in our observational frequency range, 6 were probably identified in this data set, and are reported in
-Table \ref{tab:MAOri}. The remaining 18 CH$_{3}$NH$_{2}$ transitions are
-blended with or masked by other spectral features, or its signal are below the noise level 
-(See Appendix~B). 
+
+Out of 24 selected transitions in our observational frequency range, 
+6 were probably identified and are reported in Table \ref{tab:MAOri}. 
+The remaining 18 CH$_{3}$NH$_{2}$ transitions are blended with or masked by other spectral features, 
+or its signal are below the noise level (See Appendix~B). 
 
 \renewcommand{\arraystretch}{1.5}
 \begin{table}[htb]
@@ -20,12 +20,10 @@ blended with or masked by other spectral features, or its signal are below the n
 {\scriptsize
   \begin{tabular}{cccccl} \hline
    Fequency [GHz]& S$\mu ^{2}$ [D$^2$] & E$_{\rm{u}}$ [K]& Transition ($J$, $K_{\rm{a}}$, $\Gamma$) & Noise [K]  &Comments \\ \hline 
-%    215.670 & 53.92 & 111.48 & 9, 2, $E_{1-1}$ $\rightarrow$ 9, 1, $E_{1+1}$  & 3.74(0.07) & 0.043 &  \\
     217.758 & 129.88 & 182.05 & 12, 2, $B_{2}$ $\rightarrow$ 12, 1, $B_{1}$ &  0.034 &Reported in Pagani+17 \\
     245.202 & 37.84 & 168.31 & 12, 1, $B_{2}$ $\rightarrow$ 11, 2, $B_{1}$ & 0.037 &Reported in Pagani+17 \\
-%    221.755 & 35.06 & 133.11 & 10, 2, $A_{2}$ $\rightarrow$ 10, 1, $A_{1}$ & 0.33(0.03)& 0.133 &SV data \\
-    229.908 & 27.37 & 92.71 & 8, 2, $A_{2}$ $\rightarrow$ 8, 1, $A_{1}$ & 0.064&\\ 
     235.735 & 82.06 & 92.76 & 8, 2, $B_{2}$ $\rightarrow$ 8, 1, $B_{1}$ &  0.081 &Reported in Pagani+17 \\
+    229.908 & 27.37 & 92.71 & 8, 2, $A_{2}$ $\rightarrow$ 8, 1, $A_{1}$ & 0.064&\\ 
     242.262 & 60.23 & 60.86 & 6, 2, $B_{2}$ $\rightarrow$ 6, 1, $B_{1}$ &  0.166 &SV data \\
     244.887 & 49.54 & 48.09 & 5, 2, $B_{1}$ $\rightarrow$ 5, 1, $B_{2}$ & 0.043 &Reported in Pagani+17 \\ \hline
   \end{tabular}
@@ -33,18 +31,23 @@ blended with or masked by other spectral features, or its signal are below the n
 \end{center}
 \end{table}
 
+\newpage
 \section{Overall CH$_3$NH$_2$ distribution}
-CH$_3$NH$_2$ emission appears mainly at Hot core and partially at IRc7.
+CH$_3$NH$_2$ emission appears mainly at Hot core and partially at IRc7 (Figure \ref{fig:mom0s}).
 According to previous work \citep[see e.g.,][]{Feng+2015, Gong+2015}, N-bearing species tend to have 
 similar peak at or near Hot core.  CH$_3$NH$_2$ also shows the same trend.
 
+Figure \ref{ch_0}-\ref{ch_5} show channel maps of expected unblended lines at 217.758~GHz, 
+245.202~GHz, 229.908~GHz, 235.735~GHz, 242.262~GHz, 244.887~GHz, respectively.
+The channel maps enable us to confirm the region where the radiations of molecules come and its velocity component.
+
 In the integrated intensity map of 229.908 GHz line, emission come from the south part of Hot core.
-Since it can be confirmed that the velocity component is different in the channel map (see Figure \ref{ch_7}), 
+Since it can be confirmed that the velocity component is different in the channel map (see Figure \ref{ch_3}), 
 this is considered to be the emission of another molecular line.
 
 In addition, the extended emission in Hot core and the compact structure at Compact ridge are seen 
 in the integrated intensity map of 242.262 GHz line. These are also considered to be emission from other molecule line 
-by the channel map (Figure \ref{ch_5}) and spectrum (Figure \ref{fig:spec}).
+by the channel map (Figure \ref{ch_4}) and spectrum (Figure \ref{fig:spec}).
 
 \newpage
 %%%%% 積分強度図挿入 %%%%%
@@ -126,6 +129,7 @@ by the channel map (Figure \ref{ch_5}) and spectrum (Figure \ref{fig:spec}).
 \end{center}
 \end{minipage}
 
+\label{fig:mom0s}
 \caption{Integrated intensity maps of unblended CH$_{3}$NH$_{2}$ lines. 
 The white contours show the 1.3 mm continuum map from \citet{Hirota+2015},
 where the contour levels are 10 \%, 30 \%, 50 \%, 70 \%, 90 \% of the peak intensity.
@@ -163,9 +167,16 @@ The rest frequency of each transition shows in the upper right part of each pane
 
 \begin{figure}[H]
   \centering
+  \includegraphics[width=0.98\textwidth]{OrionKL/chmap/229.908.eps}
+  \caption{Channel map of expected unblended 229.908 GHz line.}
+  \label{ch_3}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
   \includegraphics[width=0.98\textwidth]{OrionKL/chmap/242.262.eps}
   \caption{Channel map of expected unblended 242.262 GHz line.}
-  \label{ch_3}
+  \label{ch_4}
 \end{figure}
 
 \begin{figure}[H]
@@ -173,13 +184,6 @@ The rest frequency of each transition shows in the upper right part of each pane
   \includegraphics[width=0.98\textwidth]{OrionKL/chmap/244.887.eps}
   \caption{Channel map of expected unblended 244.887 GHz line.}
   \label{ch_5}
-\end{figure}
-
-\begin{figure}[H]
-  \centering
-  \includegraphics[width=0.98\textwidth]{OrionKL/chmap/229.908.eps}
-  \caption{Channel map of expected unblended 229.908 GHz line.}
-  \label{ch_7}
 \end{figure}
 
 \newpage
@@ -219,6 +223,8 @@ On the other hand, $\Delta V_{1/2}$ of CH$_3$NH$_2$ is narrower than those of ot
 \end{center}
 \end{table}
 
+Please note that the spectrum in Figure \ref{fig:spec} is superimposed with the result of the Gaussian fitting 
+assuming the average $\Delta V_{1/2} = 4.2\, \mathrm{km\,s^{-1}}$.
 
 %%%%% スペクトル挿入 %%%%%
 \begin{figure}[H] 
