@@ -20,8 +20,8 @@
 \contentsline {section}{\numberline {4.1}Column density and Rotation temperature}{26}
 \contentsline {section}{\numberline {4.2}Suspicious lines}{27}
 \contentsline {chapter}{\numberline {5}Conclusions }{33}
-\contentsline {chapter}{\numberline {A}Methylamine survey in low mass star-forming regions }{34}
-\contentsline {section}{\numberline {A.1}IRAS 16293}{35}
+\contentsline {chapter}{\numberline {A}CH$_{3}$NH$_{2}$ survey in low mass star-forming regions }{34}
+\contentsline {section}{\numberline {A.1}IRAS 16293}{34}
 \contentsline {subsection}{\numberline {A.1.1}Observation data}{35}
 \contentsline {subsection}{\numberline {A.1.2}Results}{35}
 \contentsline {section}{\numberline {A.2}L483}{37}

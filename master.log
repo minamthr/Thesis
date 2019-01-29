@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.7-160201-2.6 (utf8.euc) (TeX Live 2016) (preloaded format=platex 2017.5.9)  29 JAN 2019 04:41
+This is e-pTeX, Version 3.14159265-p3.7-160201-2.6 (utf8.euc) (TeX Live 2016) (preloaded format=platex 2017.5.9)  29 JAN 2019 19:52
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -435,23 +435,20 @@ Chapter 5.
 
  (./app_appendixA.tex
 Appendix A.
-File: LMSFR/IRAS16293_mom0.eps Graphic file (type eps)
-<LMSFR/IRAS16293_mom0.eps> [34
+[34
 
 
 
 ]
-Overfull \vbox (71.63017pt too high) has occurred while \output is active []
-
-
-[35]
+File: LMSFR/IRAS16293_mom0.eps Graphic file (type eps)
+ <LMSFR/IRAS16293_mom0.eps>
 File: LMSFR/IRAS16293.eps Graphic file (type eps)
- <LMSFR/IRAS16293.eps>
+ <LMSFR/IRAS16293.eps> [35]
 File: LMSFR/L483_mom0.eps Graphic file (type eps)
- <LMSFR/L483_mom0.eps> [36]
+
+<LMSFR/L483_mom0.eps> [36]
 File: LMSFR/L483.eps Graphic file (type eps)
- <LMSFR/L483.eps> [37])
-[38]
+ <LMSFR/L483.eps> [37]) [38]
 \openout2 = `app_appendixB.aux'.
 
  (./app_appendixB.tex
@@ -568,12 +565,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 2739 strings out of 493693
- 35554 string characters out of 6149788
+ 2751 strings out of 493693
+ 35756 string characters out of 6149788
  100475 words of memory out of 5000000
- 6110 multiletter control sequences out of 15000+600000
- 29380 words of font info for 104 fonts, out of 8000000 for 9000
+ 6122 multiletter control sequences out of 15000+600000
+ 32472 words of font info for 116 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
  27i,11n,31p,505b,506s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on master.dvi (70 pages, 75348 bytes).
+Output written on master.dvi (70 pages, 77276 bytes).
