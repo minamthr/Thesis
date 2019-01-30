@@ -12,23 +12,23 @@
 \contentsline {section}{\numberline {2.1}Observation data}{9}
 \contentsline {section}{\numberline {2.2}Analysis}{10}
 \contentsline {subsection}{\numberline {2.2.1}Reduction of SV data}{10}
-\contentsline {subsection}{\numberline {2.2.2}Line identification}{13}
-\contentsline {chapter}{\numberline {3}Results }{15}
-\contentsline {section}{\numberline {3.1}Overall CH$_3$NH$_2$ distribution}{16}
-\contentsline {section}{\numberline {3.2}Spectrum}{24}
-\contentsline {chapter}{\numberline {4}Discussion }{26}
-\contentsline {section}{\numberline {4.1}Column density and Rotation temperature}{26}
-\contentsline {section}{\numberline {4.2}Suspicious lines}{27}
-\contentsline {chapter}{\numberline {5}Conclusions }{33}
-\contentsline {chapter}{\numberline {A}CH$_{3}$NH$_{2}$ survey in low mass star-forming regions }{34}
-\contentsline {section}{\numberline {A.1}IRAS 16293}{34}
-\contentsline {subsection}{\numberline {A.1.1}Observation data}{35}
-\contentsline {subsection}{\numberline {A.1.2}Results}{35}
-\contentsline {section}{\numberline {A.2}L483}{37}
-\contentsline {subsection}{\numberline {A.2.1}Observation data}{37}
-\contentsline {subsection}{\numberline {A.2.2}Results}{37}
-\contentsline {chapter}{\numberline {B}Distribution of methylamine lines contaminated by other molecular line emission in Orion-KL }{39}
-\contentsline {section}{\numberline {B.1}Integrated intensity maps}{39}
-\contentsline {section}{\numberline {B.2}Channel maps}{44}
-\contentsline {chapter}{Acknowledgments}{60}
-\contentsline {chapter}{References}{61}
+\contentsline {subsection}{\numberline {2.2.2}Line identification}{14}
+\contentsline {chapter}{\numberline {3}Results }{16}
+\contentsline {section}{\numberline {3.1}Overall CH$_3$NH$_2$ distribution}{17}
+\contentsline {section}{\numberline {3.2}Spectra}{25}
+\contentsline {chapter}{\numberline {4}Discussion }{27}
+\contentsline {section}{\numberline {4.1}Column density and Rotation temperature}{27}
+\contentsline {section}{\numberline {4.2}Suspicious lines}{28}
+\contentsline {chapter}{\numberline {5}Conclusions }{34}
+\contentsline {chapter}{\numberline {A}CH$_{3}$NH$_{2}$ survey in low mass star-forming regions }{35}
+\contentsline {section}{\numberline {A.1}IRAS 16293}{35}
+\contentsline {subsection}{\numberline {A.1.1}Observation data}{36}
+\contentsline {subsection}{\numberline {A.1.2}Results}{36}
+\contentsline {section}{\numberline {A.2}L483}{38}
+\contentsline {subsection}{\numberline {A.2.1}Observation data}{38}
+\contentsline {subsection}{\numberline {A.2.2}Results}{38}
+\contentsline {chapter}{\numberline {B}Distribution of CH$_{3}$NH$_{2}$ lines contaminated by other molecular line emission in Orion-KL }{40}
+\contentsline {section}{\numberline {B.1}Integrated intensity maps}{40}
+\contentsline {section}{\numberline {B.2}Channel maps}{45}
+\contentsline {chapter}{Acknowledgments}{61}
+\contentsline {chapter}{References}{62}
