@@ -46,11 +46,11 @@ Comparison of catalogs did not suggest contamination, but some emission lines co
   \caption{transitions of CH$_3$NH$_2$}
   \label{tab:unresolved}
 {\scriptsize
-  \begin{tabular}{cccccccl} \hline
-   Fequency [GHz]& S$\mu ^{2}$ [D$^2$] & E$_{\rm{u}}$ [K]& Transition ($J$, $K_{\rm{a}}$, $\Gamma$) 
-   & peak $T_{\mathrm{B}}$\footnotemark[1] [K] & $V_{\mathrm{LSR}}$\footnotemark[1] [km s$^{-1}$] & Noise [K]  &Comments \\ \hline 
-    215.670 & 53.92 & 111.48 & 9, 2, $E_{1-1}$ $\rightarrow$ 9, 1, $E_{1+1}$  & 3.74(0.07) & 5.37(0.07) & 0.043 &  \\
-    221.755 & 35.06 & 133.11 & 10, 2, $A_{2}$ $\rightarrow$ 10, 1, $A_{1}$ & 0.33(0.03)& 5.35(0.19) & 0.133 &SV data \\ \hline
+  \begin{tabular}{ccccccccl} \hline
+   Frequency & S$\mu ^{2}$ & E$_{\rm{u}}$& Transition & peak $T_{\mathrm{B}}$\footnotemark[1] & $V_{\mathrm{LSR}}$\footnotemark[1]  & Noise & Conversion  & Comments \\ 
+  $\,$ [GHz]  & [D$^2$] &  [K] & ($J$, $K_{\rm{a}}$, $\Gamma$)  & [K] & [km s$^{-1}$] & [K] &  (K to Jy beam$^{-1}$) &  \\ \hline 
+    215.670 & 53.92 & 111.48 & 9, 2, $E_{1-1}$ $\rightarrow$ 9, 1, $E_{1+1}$  & 3.74(0.07) & 5.37(0.07) & 0.043 & 0.077 &  \\
+    221.755 & 35.06 & 133.11 & 10, 2, $A_{2}$ $\rightarrow$ 10, 1, $A_{1}$ & 0.33(0.03)& 5.35(0.19) & 0.133 &0.108 &SV data \\ \hline
   \end{tabular}
   }
 \end{center}
@@ -71,8 +71,8 @@ and possible high-level contamination.
 
 \subsection*{215.670 GHz line}
 This emission line ($E_{\mathrm{u}}=111$ K) is seen at Hot core and IRc7 like other CH$_{3}$NH$_{2}$ transitions 
-(see Figure \ref{fig:215mom}), but this line has stronger intensity than that predicted in the rotation diagram.
-Since the line width is also wider than the other CH$_{3}$NH$_{2}$ transitions, 
+(see Figure 4.3 and Figure \ref{ch_4}), but this line has stronger intensity than that predicted in the rotation diagram (see Figure \ref{fig:RD_blend}).
+Since the line width is also wider than the other CH$_{3}$NH$_{2}$ transitions (see Figure 4.3), 
 it appears that this line is blended with other molecular emission lines existing in Hot core.
 Then examining the catalog including the transition of higher excitation, CH$_3$CH$_2$CN (215.6687 GHz, $E_{\mathrm{l}}$ = 604.845 K)
 has come up as a candidate for blending.
@@ -86,7 +86,6 @@ it is uncertain how much this transition of higher excitation contributes to the
 \begin{minipage}{0.48\textwidth}
 \begin{center}
 \includegraphics[width=0.98\textwidth]{OrionKL/mom0/215.67mom0_3-7.eps}
-\label{fig:215mom}
 \end{center}
 \end{minipage}
 \begin{minipage}{0.48\textwidth}
@@ -97,17 +96,20 @@ it is uncertain how much this transition of higher excitation contributes to the
 \end{minipage}
 \end{center}
 \end{minipage}
-\caption{(left) Integrated intensity map of the emission for 215.670 GHz. Same as Figure \ref{fig:mom0s} but for white contours and black crosses. (right) Spectrum of the CH$_3$NH$_2$ lines at each frequency observed in Hot core (black)  and the result of the Gaussian fitting assuming the average $\Delta V_{1/2} = 4.2\, \mathrm{km\,s^{-1}}$ (red)}
+\label{fig:215data}
+\caption{(left) Integrated intensity map of the emission for 215.670 GHz. Same as Figure \ref{fig:cont+2015} but for white contours and black crosses. (right) Spectrum of the CH$_3$NH$_2$ lines at each frequency observed in Hot core (black)  and the result of the Gaussian fitting assuming the average $\Delta V_{1/2} = 4.2\, \mathrm{km\,s^{-1}}$ (red)}
 \end{center}
+\label{fig:215data}
 \end{figure}
 
 \subsection*{221.755 GHz line}
-A faint signal was seen in Hot core in the integrated intensity map(Figure \ref{fig:221mom}).
-Since there was no blend of other molecular emission lines in the comparison in the catalogs, we analyzed the spectrum, 
+A faint signal was seen in Hot core in the integrated intensity map and channel maps (Figure 4.4 and \ref{ch_6}).
+Since there was no blend of other molecular emission lines in the comparison with the catalogs, we analyzed the spectrum, 
 but the peak intensity ( $T_{\mathrm{B}}=$ 0.33 K) was weaker than 
 3 $\sigma $ noise level ($T_{\mathrm{B}}=$ 0.133 K, see Table \ref{tab:unresolved}). 
 When we plotted this line on the rotation diagram with 3$\sigma$ as the upper limit of the intensity, 
-the derived value was consistent with other CH$_3$NH$_2$ transitions. This emission line was included in SV data cube, 
+the derived value was consistent with other CH$_3$NH$_2$ transitions (see Figure \ref{fig:RD_blend}). 
+This emission line was included in SV data cube, 
 so it could be possible to detect the line in future observations with higher S/N ratio.
 
 \begin{figure}[htp] 
@@ -127,7 +129,7 @@ so it could be possible to detect the line in future observations with higher S/
 \end{minipage}
 \end{center}
 \end{minipage}
-\caption{(left) Integrated intensity map of the emission for 221.755 GHz. Same as Figure \ref{fig:mom0s} but for white contours and black crosses. (right) Spectrum of the CH$_3$NH$_2$ lines at each frequency observed in Hot core (black)  and the result of the Gaussian fitting assuming the average $\Delta V_{1/2} = 4.2\, \mathrm{km\,s^{-1}}$ (red)}
+\caption{(left) Integrated intensity map of the emission for 221.755 GHz. Same as Figure \ref{fig:cont+2015} but for white contours and black crosses. (right) Spectrum of the CH$_3$NH$_2$ lines at each frequency observed in Hot core (black)  and the result of the Gaussian fitting assuming the average $\Delta V_{1/2} = 4.2\, \mathrm{km\,s^{-1}}$ (red)}
 \end{center}
 \end{figure}
 
