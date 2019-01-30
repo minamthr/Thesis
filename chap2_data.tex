@@ -14,7 +14,8 @@ at band 6 to fill up the missing frequency coverage of Cycle 2 data.
   \begin{tabular}{lllllll} \hline \hline
  & Window & Frequency range & FWHM & PA \\
 Date & (spw)  & (GHz) & (arcsec) & (degree) \\ \hline 
-29--30 December 2014&1 & 215.145--216.087 & 1.8 $\times$1.1 & 86 \\
+20 January 2012 (SV) & 0--16 & 213.715--246.627& 1.8$\times$1.3 & -1  \\  \hline
+29--30 December 2014 (Cycle 2)&1 & 215.145--216.087 & 1.8 $\times$1.1 & 86 \\
 &2 & 216.342--217.279 & 1.8 $\times$1.1 & 84 \\
 &3 & 217.273--218.211 & 2.2 $\times$1.0 & 102 \\
 &4 & 218.204--219.141 & 2.2 $\times$1.0 & 102 \\
@@ -30,7 +31,6 @@ Date & (spw)  & (GHz) & (arcsec) & (degree) \\ \hline
 &14 & 245.773--246.710 & 1.6 $\times$0.9 & 79 \\
 &15 & 250.154--251.091 & 1.5 $\times$0.9 & 88 \\
 &16 & 251.079--252.016 & 1.3 $\times$0.8 & 86 \\ \hline
-20 January 2012 & 0--16 & 213.715--246.627& 1.8$\times$1.3 & -1  \\ \hline
   \end{tabular}
   }
 \end{center}
@@ -42,8 +42,7 @@ the web site of CDS (Centre de Donnees astronomiques de Strasbourg)\footnote{htt
 Since the SV data contained not only line emission but continuum emission, 
 we subtracted continuum emission statistically by the method described in Section \ref{sec:Statcont}.
 
-In addition, we used Common Astronomy Software Applications (CASA) software \citep{McMullin+2007} 
-during the procedure to analyze observational data.
+In addition, we used Common Astronomy Software Applications (CASA) software V.5.0.0 \citep{McMullin+2007} during the procedure to analyze observational data.
 
 \newpage
 \section{Analysis}
@@ -70,7 +69,7 @@ Compact ridge (RA$_{J2000}: 05^{\rm{h}}35^{\rm{m}}14^{\rm{s}}.2775$, Dec$_{J2000
 so we extracted spectra from circular regions with a diameter of 1''.0  with the coordinates indicated by 
 \citet{Hirota+2015} as the center.
 The peak of the distribution of the intensity values is determined with a Gaussian fit 
-by assuming the Gaussian random error distribution with the mean value $E$ and the standard deviation $\sigma$
+by assuming the Gaussian random error distribution with the mean value $E$ and the standard deviation $\sigma$.
 The width is small in case of pixels with little or no line emission, but for line contaminated 
 regions the distribution becomes broader and the exact location of the peak more uncertain. 
 Therefore, we set the range of the Gaussian fitting from 0 to 1/3 of the peak intensity in line contaminated side,
@@ -90,10 +89,12 @@ shown are the flux density distributions of Hot core (histogram) with the result
 
 \subsubsection*{Imaging line cubes}
 Subsequently, the part of the distribution within $E - 3\sigma$ is defined as line-free channels.
-Hot core and Compact ridges have different spectrums because of the disparate chemical composition, 
+Hot core and Compact ridges have different spectra because of the disparate chemical composition, 
 so we determined the line-free channels individually and subtracted the continuum
 in the UV domain by CASA task {\sc uvcontsub} with channels common to the two regions.
-After the continuum subtraction, line cubes of Orion-KL were made using the CASA task {\sc clean}.
+After the continuum subtraction, CASA task {\sc clean} was used to deconvolve the images by applying natural weighting.
+The synthesized beam size of each data cube is listed in Table \ref{tab:Obs_Ori}. 
+The velocity resolution is 0.6 km s$^{-1}$ for Cycle 2 data and 0.7 km s$^{-1}$ for SV data respectively.
 
 Figure \ref{SVspec} shows examples of original and continuum-subtracted spectra towards Hot core. 
 Since the base line defined in this analysis seems to be reasonable, the continuum subtraction has succeeded.
@@ -114,22 +115,27 @@ Since the base line defined in this analysis seems to be reasonable, the continu
 Line selection and identification were carried out according to the following procedure.
 
 \begin{enumerate}
-\item The transition line of CH$_3$NH$_2$ contained within the frequency coverage of the observation data was listed from the catalog. Spectroscopic data of CH$_3$NH$_2$ are provided by \citet{Motiyenko+2014} and JPL Molecular Spectroscopy catalog\footnote{http://spec.jpl.nasa.gov}.
+\item The transition lines of CH$_3$NH$_2$ contained within the frequency coverage of the observation data were listed from the catalog. Spectroscopic data of CH$_3$NH$_2$ are provided by \citet{Motiyenko+2014} and JPL Molecular Spectroscopy catalog\footnote{http://spec.jpl.nasa.gov}.
 We considered that detection of high excitation temperature or weak line strength transition 
 is not realistic, and set thresholds that $S\mu^2 > 25\,\mathrm{D^2}$ and $E_{\mathrm{u}} < 200 \,\mathrm{K}$. We note that line strength $S$, the dipole moment $\mu$, and the upper state energy 
 $E_{\mathrm{u}}$. Intensity is proportional to $S\mu^2$.
 
 In addition, using the catalog obtained from JPL database, the Cologne database for molecular 
 spectroscopy (CDMS)\footnote{https://cdms.ph1.uni-koeln.de/cdms/portal/}, 
-and Splatalogue\footnote{http://www.splalogue.net/}'s Hot Core filter, 
-we investigated whether transitions of other species exist within $\pm$2 km~s$^{-1}$ 
-around the rest frequency of CH$_3$NH$_2$.  The selection criteria of other species was set as follows; 
+and Splatalogue\footnote{http://www.splalogue.net/}'s "Hot Cores" filter, 
+we investigated whether transitions of other species exist within $\pm$2 km~s$^{-1}$  
+around the rest frequency of CH$_3$NH$_2$. 
+If other molecular emission lines exist at a distance of 2 km~s$^{-1}$ or more, they are expected to spectrally resolve with high velocity resolution (0.7 km s$^{-1}$ for SV data, 0.6 km s$^{-1}$ for Cycle 2).
+
+
+The selection criteria of other species was set as follows; 
 the transitions whose $E_{\mathrm{u}}$ is lower than $500\, \mathrm{K}$.
 Transitions of CH$_3$NH$_2$ which is predicted to be blended were excluded from the survey.
 
-As a result of the catalog selection, 32 transition were listed as detection candidates.
+As a result of the catalog selection, 32 transition were listed from 201 trasitions as detection candidates.
 
-\item In order to find out where common signals exist, we drew integrated intensity maps 
+\item In order to find regions where signals exist in common among a series of data sets, 
+we drew integrated intensity maps 
 using CASA task {\sc immoment}. The integrated velocity range is 3.0-12.0 km s$^{-1}$, corresponding to
 typical velocity component of Hot core (4.8-6 km s$^{-1}$) and that of Compact ridge 
 (7.2-9.6~km~s$^{-1}$). These values were adopted from \citet{Feng+2015}.
@@ -137,7 +143,7 @@ typical velocity component of Hot core (4.8-6 km s$^{-1}$) and that of Compact r
 \item Emission at the center of Hot core were found in most of integrated intensity maps. 
 
 \item We extracted spectrum for transitions with no line blending around $\pm$2 km~s$^{-1}$ from Hot core. Here we checked again for blending. We investigated whether wider features existed 
-in the spectrum subtracted from hot core by eye.
+in the spectrum subtracted from Hot core by eye.
 
 \item Subsequently, we estimated the systemic velocity and the line width of CH$_3$NH$_2$ 
 by the Gaussian fitting from 6~transitions described in Table \ref{tab:MAOri}.

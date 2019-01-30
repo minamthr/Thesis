@@ -1,4 +1,4 @@
-\begin{thebibliography}{37}
+\begin{thebibliography}{41}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{{Ag{\'u}ndez} {et~al.}(2018){Ag{\'u}ndez}, {Marcelino}, \&
@@ -17,6 +17,11 @@
   {de Keyser}, {Morse}, {Rubin}, {Schuhmann}, {Taylor}, {Tzou}, \&
   {Wright}}]{Altwegg+2017}
 ---. 2017, \mnras, 469, S130
+
+\bibitem[{{Blake} {et~al.}(1987){Blake}, {Sutton}, {Masson}, \&
+  {Phillips}}]{Blake+1987}
+{Blake}, G.~A., {Sutton}, E.~C., {Masson}, C.~R., \& {Phillips}, T.~G. 1987,
+  \apj, 315, 621
 
 \bibitem[{{Blake} {et~al.}(1994){Blake}, {van Dishoeck}, {Jansen}, {Groesbeck},
   \& {Mundy}}]{Blake+1994}
@@ -88,6 +93,14 @@
   {Honma}}]{Hirota+2015}
 {Hirota}, T., {Kim}, M.~K., {Kurono}, Y., \& {Honma}, M. 2015, \apj, 801, 82
 
+\bibitem[{{Hirota} {et~al.}(2009){Hirota}, {Ohishi}, \&
+  {Yamamoto}}]{Hirota+2009}
+{Hirota}, T., {Ohishi}, M., \& {Yamamoto}, S. 2009, \apj, 699, 585
+
+\bibitem[{{Hirota} {et~al.}(2010){Hirota}, {Sakai}, \&
+  {Yamamoto}}]{Hirota+2010}
+{Hirota}, T., {Sakai}, N., \& {Yamamoto}, S. 2010, \apj, 720, 1370
+
 \bibitem[{{Holtom} {et~al.}(2005){Holtom}, {Bennett}, {Osamura}, {Mason}, \&
   {Kaiser}}]{Holtom+2005}
 {Holtom}, P.~D., {Bennett}, C.~J., {Osamura}, Y., {Mason}, N.~J., \& {Kaiser},
@@ -114,11 +127,16 @@
 {Kaifu}, N., {Morimoto}, M., {Nagane}, K., {Akabane}, K., {Iguchi}, T., \&
   {Takagi}, K. 1974, \apjl, 191, L135
 
-\bibitem[{{Kounkel} {et~al.}(2017){Kounkel}, {Hartmann}, {Loinard},
-  {Ortiz-Le{\'o}n}, {Mioduszewski}, {Rodr{\'{\i}}guez}, {Dzib}, {Torres},
-  {Pech}, {Galli}, {Rivera}, {Boden}, {Evans}, {Brice{\~n}o}, \&
-  {Tobin}}]{Kounkel+2017}
-{Kounkel}, M., {et~al.} 2017, \apj, 834, 142
+\bibitem[{{Kim} {et~al.}(2008){Kim}, {Hirota}, {Honma}, {Kobayashi},
+  {Bushimata}, {Choi}, {Imai}, {Iwadate}, {Jike}, {Kameno}, {Kameya},
+  {Kamohara}, {Kan-Ya}, {Kawaguchi}, {Kuji}, {Kurayama}, {Manabe}, {Matsui},
+  {Matsumoto}, {Miyaji}, {Nagayama}, {Nakagawa}, {Oh}, {Omodaka}, {Oyama},
+  {Sakai}, {Sasao}, {Sato}, {Sato}, {Shibata}, {Tamura}, \&
+  {Yamashita}}]{Kim+2008}
+{Kim}, M.~K., {et~al.} 2008, \pasj, 60, 991
+
+\bibitem[{{Kleinmann} \& {Low}(1967)}]{Kleinmann+1967}
+{Kleinmann}, D.~E., \& {Low}, F.~J. 1967, \apjl, 149, L1
 
 \bibitem[{{Kuan} {et~al.}(2003){Kuan}, {Charnley}, {Huang}, {Tseng}, \&
   {Kisiel}}]{Kuan+2003}
