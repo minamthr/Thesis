@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.7-160201-2.6 (utf8.euc) (TeX Live 2016) (preloaded format=platex 2017.5.9)  30 JAN 2019 21:52
+This is e-pTeX, Version 3.14159265-p3.7-160201-2.6 (utf8.euc) (TeX Live 2016) (preloaded format=platex 2017.5.9)  31 JAN 2019 01:18
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -278,20 +278,22 @@ Chapter 1.
 [1
 
 
-] [2] [3] [4] [5]
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 113.
+] [2]
+File: OrionKL/Orion_cnt.eps Graphic file (type eps)
+ <OrionKL/Orion_cnt.eps> [3] [4] [5]
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 121.
 
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/omsptm.fd
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 113.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 121.
  [6]
 File: ALMA.eps Graphic file (type eps)
  <ALMA.eps>
-Underfull \hbox (badness 1845) in paragraph at lines 148--148
-[]\OT1/ptm/m/n/12 Figure 1.1: At-a-cama Large Mil-lime-ter/submillimeter Ar-ray
+Underfull \hbox (badness 1845) in paragraph at lines 156--156
+[]\OT1/ptm/m/n/12 Figure 1.2: At-a-cama Large Mil-lime-ter/submillimeter Ar-ray
 . Credit by ALMA
  []
 
@@ -336,6 +338,11 @@ File: OrionKL/spec_spw13.eps Graphic file (type eps)
 
 (./chap3_results.tex
 Chapter 3.
+
+Overfull \hbox (32.37666pt too wide) in paragraph at lines 20--30
+ [][][] 
+ []
+
 [17
 
 
@@ -371,7 +378,7 @@ File: OrionKL/chmap/242.262.eps Graphic file (type eps)
 File: OrionKL/chmap/244.887.eps Graphic file (type eps)
 
 <OrionKL/chmap/244.887.eps> [24] [25]
-Underfull \hbox (badness 6300) in paragraph at lines 199--206
+Underfull \hbox (badness 6300) in paragraph at lines 198--205
 []\OT1/ptm/m/n/12 The av-er-age LSR ve-loc-ity and FWHM line width are es-ti-ma
 ted to be
  []
@@ -404,7 +411,7 @@ Chapter 4.
 ]
 File: OrionKL/RD_6point_label.eps Graphic file (type eps)
  <OrionKL/RD_6point_label.eps>
-Overfull \hbox (26.32133pt too wide) in paragraph at lines 49--56
+Overfull \hbox (16.57356pt too wide) in paragraph at lines 49--56
  [][][] 
  []
 
@@ -570,12 +577,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 2755 strings out of 493693
- 35807 string characters out of 6149788
- 101878 words of memory out of 5000000
- 6126 multiletter control sequences out of 15000+600000
+ 2758 strings out of 493693
+ 35856 string characters out of 6149788
+ 100888 words of memory out of 5000000
+ 6128 multiletter control sequences out of 15000+600000
  32472 words of font info for 116 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
  27i,12n,31p,539b,506s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on master.dvi (73 pages, 84176 bytes).
+Output written on master.dvi (73 pages, 84876 bytes).

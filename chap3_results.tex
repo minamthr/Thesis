@@ -17,14 +17,14 @@ or its signal are below the noise level (See Appendix~B).
   \caption{Observed rotational transitions of CH$_3$NH$_2$ in Orion-KL}
   \label{tab:MAOri}
 {\scriptsize
-  \begin{tabular}{cccccl} \hline
-   Fequency [GHz]& S$\mu ^{2}$ [D$^2$] & E$_{\rm{u}}$ [K]& Transition ($J$, $K_{\rm{a}}$, $\Gamma$) & Noise [K]  &Comments \\ \hline 
-    217.758 & 129.88 & 182.05 & 12, 2, $B_{2}$ $\rightarrow$ 12, 1, $B_{1}$ &  0.034 &Reported in Pagani+17 \\
-    245.202 & 37.84 & 168.31 & 12, 1, $B_{2}$ $\rightarrow$ 11, 2, $B_{1}$ & 0.037 &Reported in Pagani+17 \\
-    235.735 & 82.06 & 92.76 & 8, 2, $B_{2}$ $\rightarrow$ 8, 1, $B_{1}$ &  0.081 &Reported in Pagani+17 \\
-    229.908 & 27.37 & 92.71 & 8, 2, $A_{2}$ $\rightarrow$ 8, 1, $A_{1}$ & 0.064&\\ 
-    242.262 & 60.23 & 60.86 & 6, 2, $B_{2}$ $\rightarrow$ 6, 1, $B_{1}$ &  0.166 &SV data \\
-    244.887 & 49.54 & 48.09 & 5, 2, $B_{1}$ $\rightarrow$ 5, 1, $B_{2}$ & 0.043 &Reported in Pagani+17 \\ \hline
+  \begin{tabular}{ccccccl} \hline
+   Frequency [GHz]& S$\mu ^{2}$ [D$^2$] & E$_{\rm{u}}$ [K]& Transition ($J$, $K_{\rm{a}}$, $\Gamma$) & Noise [K] & Conversion (K to Jy/beam) &Comments \\ \hline 
+    217.758 & 129.88 & 182.05 & 12, 2, $B_{2}$ $\rightarrow$ 12, 1, $B_{1}$ &  0.034 &0.847 &Reported in Pagani+17 \\
+    245.202 & 37.84 & 168.31 & 12, 1, $B_{2}$ $\rightarrow$ 11, 2, $B_{1}$ & 0.037&0.069 &Reported in Pagani+17 \\
+    235.735 & 82.06 & 92.76 & 8, 2, $B_{2}$ $\rightarrow$ 8, 1, $B_{1}$ &  0.081&0.073 &Reported in Pagani+17 \\
+    229.908 & 27.37 & 92.71 & 8, 2, $A_{2}$ $\rightarrow$ 8, 1, $A_{1}$ & 0.064&0.051&\\ 
+    242.262 & 60.23 & 60.86 & 6, 2, $B_{2}$ $\rightarrow$ 6, 1, $B_{1}$ &  0.166 &0.073&SV data \\
+    244.887 & 49.54 & 48.09 & 5, 2, $B_{1}$ $\rightarrow$ 5, 1, $B_{2}$ & 0.043 &0.069&Reported in Pagani+17 \\ \hline
   \end{tabular}
   }
 \end{center}
@@ -132,9 +132,8 @@ by the channel map (Figure \ref{ch_5}) and spectrum (Figure 3.8).
 \label{fig:mom0s}
 \caption{Integrated intensity maps of unblended CH$_{3}$NH$_{2}$ lines. 
 The white contours show the 1.3 mm continuum map from \citet{Hirota+2015},
-where the contour levels are 10 \%, 30 \%, 50 \%, 70 \%, 90 \% of the peak intensity.
-Black crosses denote Hot core, IRc7, and Compact ridge. 
-The rest frequency of each transition shows in the upper right part of each panel.}
+where the contour levels are 10 \%, 30 \%, 50 \%, 70 \%, 90 \% of the peak intensity of 0.40 Jy/beam.
+Same as Figure \ref{fig:cont+2015} but for black crosses. The rest frequency of each transition shows in the upper right part of each panel.}
 %\caption{(Continued)}
 \end{center}
 \end{figure}
@@ -147,7 +146,7 @@ The rest frequency of each transition shows in the upper right part of each pane
   \caption{
   Channel map of expected unblended 217.758 GHz line show multiple velocity-dependent 
   emission peaks: 4-6 km s$^{-1}$ towards Hot core, 7-9km s$^{-1}$ towards IRc7. 
-  Magenta crosses denote Hot core, IRc7, and Compact ridge. Same as Figure \ref{fig:mom0s} but for white contours.}
+  Magenta crosses denote Hot core, IRc7, and Compact ridge. Same as Figure \ref{fig:cont+2015} but for white contours.}
   \label{ch_0}
 \end{figure}
 
@@ -212,7 +211,7 @@ On the other hand, $\Delta V_{1/2}$ of CH$_3$NH$_2$ is narrower than those of ot
   \label{tab:paraOri}
 {\scriptsize
   \begin{tabular}{ccccccl} \hline
-   Fequency [GHz]& E$_{\rm{u}}$ [K] &  peak $T_{\mathrm{B}}$\footnotemark[1] [K] & $V_{\mathrm{LSR}}$\footnotemark[1] [km s$^{-1}$] & $\Delta V_{1/2}$\footnotemark[1] [km s$^{-1}$] & Noise [K]  & Note \\ \hline 
+   Frequency [GHz]& E$_{\rm{u}}$ [K] &  peak $T_{\mathrm{B}}$\footnotemark[1] [K] & $V_{\mathrm{LSR}}$\footnotemark[1] [km s$^{-1}$] & $\Delta V_{1/2}$\footnotemark[1] [km s$^{-1}$] & Noise [K]  & Note \\ \hline 
     217.758  & 182.05 &  0.86(0.03) & 4.73(0.08) & 3.99(0.24) & 0.034 & \\
     245.202 & 168.31 & 0.37(0.01) & 4.51(0.08) & 3.86(0.33) & 0.037 & \\
     229.908  & 92.71 &  0.65(0.01) & 4.91(0.03) & 3.19(0.06)& 0.064&\\ 
