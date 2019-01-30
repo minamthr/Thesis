@@ -14,45 +14,45 @@ A level-1 auxiliary file: acknowledgments.aux
 A level-1 auxiliary file: chap_bib.aux
 The style file: apj.bst
 Database file #1: references.bib
-You've used 41 entries,
+You've used 46 entries,
             2988 wiz_defined-function locations,
-            938 strings with 14810 characters,
-and the built_in function-call counts, 21424 in all, are:
-= -- 1662
-> -- 1810
+            968 strings with 16360 characters,
+and the built_in function-call counts, 23998 in all, are:
+= -- 1850
+> -- 2035
 < -- 4
-+ -- 617
-- -- 576
-* -- 2012
-:= -- 4076
-add.period$ -- 41
-call.type$ -- 41
-change.case$ -- 321
-chr.to.int$ -- 41
-cite$ -- 41
-duplicate$ -- 779
-empty$ -- 1119
-format.name$ -- 708
-if$ -- 4119
++ -- 693
+- -- 647
+* -- 2271
+:= -- 4573
+add.period$ -- 46
+call.type$ -- 46
+change.case$ -- 356
+chr.to.int$ -- 46
+cite$ -- 46
+duplicate$ -- 871
+empty$ -- 1253
+format.name$ -- 797
+if$ -- 4610
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 39
-newline$ -- 127
-num.names$ -- 165
-pop$ -- 339
+missing$ -- 44
+newline$ -- 142
+num.names$ -- 185
+pop$ -- 371
 preamble$ -- 1
-purify$ -- 321
+purify$ -- 356
 quote$ -- 0
-skip$ -- 649
+skip$ -- 728
 stack$ -- 0
-substring$ -- 871
+substring$ -- 973
 swap$ -- 8
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 369
+type$ -- 414
 warning$ -- 0
-while$ -- 152
+while$ -- 166
 width$ -- 0
-write$ -- 413
+write$ -- 463
 is.kanji.str$ -- 0

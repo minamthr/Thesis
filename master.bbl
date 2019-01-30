@@ -1,4 +1,4 @@
-\begin{thebibliography}{41}
+\begin{thebibliography}{46}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{{Ag{\'u}ndez} {et~al.}(2018){Ag{\'u}ndez}, {Marcelino}, \&
@@ -122,6 +122,11 @@
   {{\"O}berg}, {Persson}, \& {Wampfler}}]{Jorgensen+2016}
 {J{\o}rgensen}, J.~K., {et~al.} 2016, \aap, 595, A117
 
+\bibitem[{{Kahane} {et~al.}(2013){Kahane}, {Ceccarelli}, {Faure}, \&
+  {Caux}}]{Kahane+2013}
+{Kahane}, C., {Ceccarelli}, C., {Faure}, A., \& {Caux}, E. 2013, \apjl, 763,
+  L38
+
 \bibitem[{{Kaifu} {et~al.}(1974){Kaifu}, {Morimoto}, {Nagane}, {Akabane},
   {Iguchi}, \& {Takagi}}]{Kaifu+1974}
 {Kaifu}, N., {Morimoto}, M., {Nagane}, K., {Akabane}, K., {Iguchi}, T., \&
@@ -148,6 +153,11 @@
 {Lee}, C.-W., {Kim}, J.-K., {Moon}, E.-S., {Minh}, Y.~C., \& {Kang}, H. 2009,
   \apj, 697, 428
 
+\bibitem[{{Ligterink} {et~al.}(2018){Ligterink}, {Calcutt}, {Coutens},
+  {Kristensen}, {Bourke}, {Drozdovskaya}, {M{\"u}ller}, {Wampfler}, {van der
+  Wiel}, {van Dishoeck}, \& {J{\o}rgensen}}]{Ligterink+2018}
+{Ligterink}, N.~F.~W., {et~al.} 2018, \aap, 619, A28
+
 \bibitem[{{Loinard} {et~al.}(2008){Loinard}, {Torres}, {Mioduszewski}, \&
   {Rodr{\'{\i}}guez}}]{Loinard+2008}
 {Loinard}, L., {Torres}, R.~M., {Mioduszewski}, A.~J., \& {Rodr{\'{\i}}guez},
@@ -170,15 +180,30 @@
 {Motiyenko}, R.~A., {Ilyushin}, V.~V., {Drouin}, B.~J., {Yu}, S., \&
   {Margul{\`e}s}, L. 2014, \aap, 563, A137
 
+\bibitem[{{Oya} {et~al.}(2016){Oya}, {Sakai}, {L{\'o}pez-Sepulcre}, {Watanabe},
+  {Ceccarelli}, {Lefloch}, {Favre}, \& {Yamamoto}}]{Oya+2016}
+{Oya}, Y., {Sakai}, N., {L{\'o}pez-Sepulcre}, A., {Watanabe}, Y., {Ceccarelli},
+  C., {Lefloch}, B., {Favre}, C., \& {Yamamoto}, S. 2016, \apj, 824, 88
+
 \bibitem[{{Oya} {et~al.}(2018){Oya}, {Sakai}, {Watanabe}, {L{\'o}pez-Sepulcre},
   {Ceccarelli}, {Lefloch}, \& {Yamamoto}}]{Oya+2018b}
 {Oya}, Y., {Sakai}, N., {Watanabe}, Y., {L{\'o}pez-Sepulcre}, A., {Ceccarelli},
   C., {Lefloch}, B., \& {Yamamoto}, S. 2018, \apj, 863, 72
 
+\bibitem[{{Oya} {et~al.}(2017){Oya}, {Sakai}, {Watanabe}, {Higuchi}, {Hirota},
+  {L{\'o}pez-Sepulcre}, {Sakai}, {Aikawa}, {Ceccarelli}, {Lefloch}, {Caux},
+  {Vastel}, {Kahane}, \& {Yamamoto}}]{Oya+2017}
+{Oya}, Y., {et~al.} 2017, \apj, 837, 174
+
 \bibitem[{{Pagani} {et~al.}(2017){Pagani}, {Favre}, {Goldsmith}, {Bergin},
   {Snell}, \& {Melnick}}]{Pagani+2017}
 {Pagani}, L., {Favre}, C., {Goldsmith}, P.~F., {Bergin}, E.~A., {Snell}, R., \&
   {Melnick}, G. 2017, \aap, 604, A32
+
+\bibitem[{{Persson} {et~al.}(2018){Persson}, {J{\o}rgensen}, {M{\"u}ller},
+  {Coutens}, {van Dishoeck}, {Taquet}, {Calcutt}, {van der Wiel}, {Bourke}, \&
+  {Wampfler}}]{Persson+2018}
+{Persson}, M.~V., {et~al.} 2018, \aap, 610, A54
 
 \bibitem[{{Rice} {et~al.}(2006){Rice}, {Prato}, \& {McLean}}]{Rice+2006}
 {Rice}, E.~L., {Prato}, L., \& {McLean}, I.~S. 2006, \apj, 647, 432
