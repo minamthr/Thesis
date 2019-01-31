@@ -1,7 +1,7 @@
 \chapter{Observation data \& Analysis
 \label{chap:Orion-KL}}
 \section{Observation data}
-We analyzed 2 ALMA archival data. First we used Cycle 2 data (ADS/JAO.ALMA\#2013.1.00553.S, 
+We analyzed 2 ALMA archival data. First, we used Cycle 2 data (ADS/JAO.ALMA\#2013.1.00553.S, 
 \cite{Pagani+2017}) 
 We also employed the ALMA Science Verification (SV) data (ADS/JAO.ALMA\#2011.0.00009.SV) 
 at band 6 to fill up the missing frequency coverage of Cycle 2 data. 
@@ -50,12 +50,12 @@ In addition, we used Common Astronomy Software Applications (CASA) software V.5.
 \label{sec:Statcont}
 
 With the advent of highly sensitive facilities such as ALMA, the spectral lines which were hindered 
-by the noise level with previous telescope can now be detected.
+by the noise level with the previous telescope can now be detected.
 Most of these line-rich sources including hot cores are associated with detectable continuum emission.
 In the analysis of molecular emission lines, the determination and the subtraction of this continuum 
 emission is an essential, but difficult task. 
 Therefore, we improved the method devised in \citet{Sanchez-Monge+2017} and deduced continuum subtraction 
-in the observed UV domain (the raw visibilities measured by the interferometer).
+in the observed $(u,v)$ domain (the raw visibilities measured by the interferometer).
 We introduce the method and results in this section.
 
 \subsubsection*{Determination of the continuum level}
@@ -72,7 +72,7 @@ The peak of the distribution of the intensity values is determined with a Gaussi
 by assuming the Gaussian random error distribution with the mean value $E$ and the standard deviation $\sigma$.
 The width is small in case of pixels with little or no line emission, but for line contaminated 
 regions the distribution becomes broader and the exact location of the peak more uncertain. 
-Therefore, we set the range of the Gaussian fitting from 0 to 1/3 of the peak intensity in line contaminated side,
+Therefore, we set the range of the Gaussian fitting from 0 to 1/3 of the peak intensity in line contaminated side 
 and calculated the mean value $E$ and the standard deviation $\sigma$ (see Figure 2.1). 
 
 \begin{figure}[hbp] 
@@ -91,13 +91,13 @@ shown are the flux density distributions of Hot core (histogram) with the result
 Subsequently, the part of the distribution within $E - 3\sigma$ is defined as line-free channels.
 Hot core and Compact ridges have different spectra because of the disparate chemical composition, 
 so we determined the line-free channels individually and subtracted the continuum
-in the UV domain by CASA task {\sc uvcontsub} with channels common to the two regions.
+in the $(u,v)$ domain by CASA task {\sc uvcontsub} with channels common to the two regions.
 After the continuum subtraction, CASA task {\sc clean} was used to deconvolve the images by applying natural weighting.
 The synthesized beam size of each data cube is listed in Table \ref{tab:Obs_Ori}. 
 The velocity resolution is 0.6 km s$^{-1}$ for Cycle 2 data and 0.7 km s$^{-1}$ for SV data respectively.
 
 Figure \ref{SVspec} shows examples of original and continuum-subtracted spectra towards Hot core. 
-Since the base line defined in this analysis seems to be reasonable, the continuum subtraction has succeeded.
+Since the baseline defined in this analysis seems to be reasonable, the continuum subtraction has succeeded.
 
 \begin{figure}[htbp]
   \centering
@@ -123,24 +123,24 @@ $E_{\mathrm{u}}$. Intensity is proportional to $S\mu^2$.
 In addition, using the catalog obtained from JPL database, the Cologne database for molecular 
 spectroscopy (CDMS)\footnote{https://cdms.ph1.uni-koeln.de/cdms/portal/}, 
 and Splatalogue\footnote{http://www.splalogue.net/}'s "Hot Cores" filter, 
-we investigated whether transitions of other species exist within $\pm$2 km~s$^{-1}$  
+we investigated transitions of other species possibly contaminated within $\pm$2 km~s$^{-1}$  
 around the rest frequency of CH$_3$NH$_2$. 
-If other molecular emission lines exist at a distance of 2 km~s$^{-1}$ or more, they are expected to spectrally resolve with high velocity resolution (0.7 km s$^{-1}$ for SV data, 0.6 km s$^{-1}$ for Cycle 2).
+If other molecular emission lines exist with an offset of 2 km~s$^{-1}$ or larger, they are expected to spectrally resolve with high-velocity resolution (0.7 km s$^{-1}$ for SV data, 0.6 km s$^{-1}$ for Cycle 2).
+Because it was hard to distinguish from CH$_3$NH$_2$, transitions with such contamination were excluded from the analysis.
 
-
-The selection criteria of other species was set as follows; 
+The selection criteria of other species were set as follows; 
 the transitions whose $E_{\mathrm{u}}$ is lower than $500\, \mathrm{K}$.
 Transitions of CH$_3$NH$_2$ which is predicted to be blended were excluded from the survey.
 
-As a result of the catalog selection, 24 transition were listed from 201 transitions as detection candidates.
+As a result of the catalog selection, 24 transitions were listed from 201 transitions as detection candidates.
 
 \item In order to find regions where signals exist in common among a series of data sets, 
 we drew integrated intensity maps 
 using CASA task {\sc immoment}. The integrated velocity range is 3.0-12.0 km s$^{-1}$, corresponding to
-typical velocity component of Hot core (4.8-6 km s$^{-1}$) and that of Compact ridge 
+the typical velocity component of Hot core (4.8-6 km s$^{-1}$) and that of Compact ridge 
 (7.2-9.6~km~s$^{-1}$). These values were adopted from \citet{Feng+2015}.
 
-\item Emission at the center of Hot core were found in most of integrated intensity maps. 
+\item Emission at the center of Hot core was found in most of the integrated intensity maps. 
 
 \item We extracted spectrum for transitions with no line blending around $\pm$2 km~s$^{-1}$ from Hot core. Here we checked again for blending. We investigated whether wider features existed 
 in the spectrum subtracted from Hot core by eye and selected 6 lines among 24 transitions.
